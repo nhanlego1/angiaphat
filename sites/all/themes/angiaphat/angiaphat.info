@@ -1,0 +1,40 @@
+name = An Gia Phat
+description = An Gia Phat theme.
+core = 7.x
+engine = phptemplate
+
+;add css for template
+stylesheets[all][] = css/booking.css
+stylesheets[all][] = css/form.css
+stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/stuck.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = font/font-awesome.css
+;add js to theme
+scripts[] = js/jquery-migrate-1.1.1.js
+scripts[] = js/script.js
+;scripts[] = js/superfish.js
+scripts[] = js/sForm.js
+scripts[] = js/jquery.equalheights.js
+scripts[] = js/jquery.mobilemenu.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/tmStickUp.js
+scripts[] = js/jquery.ui.totop.js
+scripts[] = js/jquery-ui-1.10.3.custom.min.js
+scripts[] = js/jquery.fancyform.js
+scripts[] = js/jquery.placeholder.js
+scripts[] = js/regula.js
+scripts[] = js/owl.carousel.js
+scripts[] = js/custom.js
+
+;add region for template
+regions[highlighted] = Highlighted
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[content] = Content
+regions[content_top] = Content Top
+regions[content_second] = Content second
+regions[header] = Header
+regions[footer_top] = Footer Top
+regions[footer_bottom] = Footer Bottom
+regions[footer] = Footer

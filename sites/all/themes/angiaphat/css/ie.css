@@ -1,0 +1,30 @@
+#bookingForm  {
+	behavior: url(../js/PIE.htc);
+	position: relative;
+	background-color: #fff;
+}
+
+#newsletter .title {
+	letter-spacing: -1px;
+}
+
+#newsletter .title span {
+	letter-spacing: normal;
+}
+
+#bookingForm input {
+	border: 1px solid #ddd;
+}
+
+
+#form .invalid .error-message, 
+#form .empty .empty-message {
+	display: block;
+
+}
+
+#form .error-message, 
+#form .empty-message {
+	display: none;
+}
+

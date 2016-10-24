@@ -1,0 +1,6 @@
+name = "Booking ticket"
+description = "Plugin allow check cheaper ticket of 3 company"
+package = "An Gia Phat"
+core = "7.x"
+
+

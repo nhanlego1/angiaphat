@@ -1,0 +1,68 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: nhan
+ * Date: 10/17/16
+ * Time: 11:37 PM
+ */
+
+/**
+ * Checking ticket page
+ * Implement hook_menu()
+ */
+function booking_menu() {
+    $items = array();
+    $items['ticket/checking'] = array(
+        'access arguments' => array('access content'),
+        'page callback' => 'booking_ticket_checking',
+        'type' => MENU_CALLBACK
+    );
+    return $items;
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function booking_theme() {
+    $items = array();
+    $items['ticket_checking'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'booking') .'/theme',
+        'template' => 'ticket-checking',
+    );
+    return $items;
+}
+
+/**
+ * Implement booking_ticket_checking
+ */
+function booking_ticket_checking(){
+    return theme('ticket_checking');
+}
+
+/**
+ * Implementation of hook_block_info().
+ */
+function booking_block_info() {
+    $blocks = array();
+    $blocks['ticket_form'] = array('info' => t('Ticket Form'));
+    return $blocks;
+}
+
+/**
+ * Implementation of hook_block_view().
+ */
+function booking_block_view($delta = '') {
+    switch ($delta) {
+        case 'ticket_form':
+
+                return array(
+                    'subject' => t('Ticket Form'),
+                    'content' => theme('ticket_checking'),
+                );
+
+            break;
+
+    }
+}
+
