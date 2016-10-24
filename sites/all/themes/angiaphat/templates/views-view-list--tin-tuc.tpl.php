@@ -10,6 +10,9 @@
   <?php foreach ($rows as $id => $row): ?>
     <?php print $row; ?>
   <?php endforeach; ?>
+
   <div class="clear"></div>
-  <a href="#" class="btn">See all deals</a>
+  <?php if (count($rows) > 0 && @is_null($view->total_rows)): ?>
+    <a href="<?php print url('tin-tuc')?>" class="btn">See all deals</a>
+  <?php endif; ?>
 </div>
