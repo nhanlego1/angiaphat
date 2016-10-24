@@ -51,7 +51,10 @@ img {
 .box img{
     max-width: 113%;
 }
-
+.agp-views-product .box img {
+    height: 220px;
+    width: 100%;
+}
 
 /****Heads****/
 
