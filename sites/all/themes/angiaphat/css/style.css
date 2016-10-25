@@ -2779,7 +2779,9 @@ h4 {
     border-color: #ffe15e;
     color: white;
 }
-
+.node {
+    margin-bottom: 15px;
+}
 .node-product img {
     height: auto;
 }
