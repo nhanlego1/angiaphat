@@ -2780,6 +2780,14 @@ h4 {
     color: white;
 }
 
+.node-product img {
+    height: auto;
+}
+.node-product .row.content {
+    margin-top: 15px;
+}
+
+
 @media only screen and (max-width: 479px) {
 
 }

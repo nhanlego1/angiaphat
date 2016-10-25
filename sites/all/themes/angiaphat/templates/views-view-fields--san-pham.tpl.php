@@ -9,7 +9,7 @@
 <div class="grid_4">
   <div class="box">
     <img
-      src="<?php @file_create_url(agp_getValue($row, 'field_field_images.0.raw.uri')) ?>"
+      src="<?php print @file_create_url(agp_getValue($row, 'field_field_images.0.raw.uri')) ?>"
       alt="">
     <div class="box_bot">
       <div class="maxheight" style="height: 70px;">

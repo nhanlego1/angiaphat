@@ -99,6 +99,9 @@ function getBackground() {
 }
 
 function agp_getValue($data, $key, $value_default = '') {
+  if (is_null($data) || empty($data)) {
+    return $value_default;
+  }
   $sub_fields = explode('.', $key);
   foreach ($sub_fields as $k) {
     if (is_array($data)) {
