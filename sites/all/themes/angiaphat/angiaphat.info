@@ -38,3 +38,6 @@ regions[header] = Header
 regions[footer_top] = Footer Top
 regions[footer_bottom] = Footer Bottom
 regions[footer] = Footer
+
+;settings
+settings[hide_content_in_front] = 1
