@@ -69,7 +69,7 @@
                 navigation: true,
                 pagination: false
             });
-            jQuery().UItoTop({easingType: 'easeOutQuart'});
+//            jQuery().UItoTop({easingType: 'easeOutQuart'});
             jQuery('#stuck_container').tmStickUp({});
         });
 
