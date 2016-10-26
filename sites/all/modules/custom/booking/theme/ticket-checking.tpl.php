@@ -14,7 +14,7 @@
             <span>&nbsp;</span>
             <div class="tmRadio">
                 <div class="lf">
-                    <input name="Hotel" type="radio"
+                    <input name="booking[type]" type="radio"
                            data-constraints="@RadioGroupChecked(name=&quot;Hotel&quot;, groups=[RadioGroup])" checked=""
                            id="regula-generated-720138" style="display: none;"><strong class="checked"></strong>
                     <span><?php print t('Một chiều') ?></span>
@@ -22,7 +22,7 @@
 
                 </div>
                 <div class="rf">
-                    <input name="Hotel" type="radio"
+                    <input name="booking[type]" type="radio"
                            data-constraints="@RadioGroupChecked(name=&quot;Hotel&quot;, groups=[RadioGroup])"
                            id="regula-generated-209086" style="display: none;"><strong class="unchecked"></strong>
                     <span><?php print t('Khứ hồi') ?></span>
@@ -40,7 +40,7 @@
         <div class="controlHolder">
             <span>&nbsp;</span>
             <div class="tmInput">
-                <input name="Destination" placeholder="" type="text" data-constraints="@NotEmpty @Required"
+                <input name="booking[from]" placeholder="" type="text" data-constraints="@NotEmpty @Required"
                        id="regula-generated-921694">
             </div>
         </div>
@@ -53,7 +53,7 @@
         <div class="controlHolder">
             <span>&nbsp;</span>
             <div class="tmInput">
-                <input name="Destination" placeholder="" type="text" data-constraints="@NotEmpty @Required"
+                <input name="booking[to]" placeholder="" type="text" data-constraints="@NotEmpty @Required"
                        id="regula-generated-921694">
             </div>
         </div>
@@ -64,13 +64,13 @@
 
         <div class="controlHolder"><label class="tmDatepicker">
                 <span><?php print t('Ngày đi'); ?></span>
-                <input type="text" name="Check-in" placeholder="10/05/2014" data-constraints="@NotEmpty @Required @Date"
+                <input type="text" name="booking[check-in]" placeholder="10/05/2014" data-constraints="@NotEmpty @Required @Date"
                        id="dp1476105599685" class="hasDatepicker">
             </label></div>
 
         <div class="controlHolder"><label class="tmDatepicker">
                 <span><?php print t('Ngày về'); ?></span>
-                <input type="text" name="Check-out" placeholder="20/05/2014"
+                <input type="text" name="booking[check-out]" placeholder="20/05/2014"
                        data-constraints="@NotEmpty @Required @Date" id="dp1476105599686" class="hasDatepicker">
             </label></div>
         <div class="clear"></div>
@@ -84,7 +84,7 @@
         <div class="inn1">
             <span><?php print t('Người lớn <br> trên 12T') ?></span>
             <div class="controlHolder">
-                <select name="Rooms" class="tmSelect auto" data-class="tmSelect tmSelect2"
+                <select name="booking[people_adult]" class="tmSelect auto" data-class="tmSelect tmSelect2"
                                                data-constraints="" style="display: none;">
                     <option>&nbsp;</option>
                     <option>1</option>
@@ -104,7 +104,7 @@
         </div>
         <div class="inn1">
             <span><?php print t('Trẻ em <br> 2T - 11T') ?></span>
-            <div class="controlHolder"><select name="Adults" class="tmSelect auto" data-class="tmSelect tmSelect2"
+            <div class="controlHolder"><select name="booking[people_child_mid]" class="tmSelect auto" data-class="tmSelect tmSelect2"
                                                data-constraints="" style="display: none;">
                     <option>&nbsp;</option>
                     <option>1</option>
@@ -125,7 +125,7 @@
         </div>
         <div class="inn1">
             <span><?php print t('Trẻ em <br> dưới 2T') ?></span>
-            <div class="controlHolder"><select name="Children" class="tmSelect auto" data-class="tmSelect tmSelect2"
+            <div class="controlHolder"><select name="booking[people_child]" class="tmSelect auto" data-class="tmSelect tmSelect2"
                                                data-constraints="" style="display: none;">
                     <option>&nbsp;</option>
                     <option>0</option>

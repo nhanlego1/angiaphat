@@ -157,9 +157,9 @@
                 <?php print render($page['help']); ?>
                 <?php if ($action_links): ?>
                     <ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-                <?php if (!drupal_is_front_page() || 1 != theme_get_setting('hide_content_in_front')): ?>
+<!--                --><?php //if (!drupal_is_front_page() || 1 != theme_get_setting('hide_content_in_front')): ?>
                     <?php print render($page['content']); ?>
-                <?php endif; ?>
+<!--                --><?php //endif; ?>
                 <?php print $feed_icons; ?>
 
             </div>
