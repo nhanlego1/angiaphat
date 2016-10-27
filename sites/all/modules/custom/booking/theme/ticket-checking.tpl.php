@@ -44,24 +44,22 @@
     <div class="controlHolder">
       <span>&nbsp;</span>
       <div class="tmInput">
-        <input name="booking[from]" placeholder="" type="text"
-               data-constraints="@NotEmpty @Required"
-               id="regula-generated-921694">
+        <input name="booking[from]" placeholder="" type="text" class="tooltip"
+               data-tooltip-content="#tooltip_content"
+               id="booking_from" value="<?php print agp_getValue($booking_data, 'from') ?>">
       </div>
     </div>
   </div>
   <div class="sect2">
 
     <div class="count">
-      <span class="col1 tooltip"
-            data-tooltip-content="#tooltip_content">03.</span> <?php print t('Chiều về') ?>
+      <span class="col1">03.</span> <?php print t('Chiều về') ?>
     </div>
     <div class="controlHolder">
       <span>&nbsp;</span>
       <div class="tmInput">
-        <input name="booking[to]" placeholder="" type="text"
-               data-constraints="@NotEmpty @Required"
-               id="regula-generated-921694">
+        <input name="booking[to]" placeholder="" type="text" class="tooltip"
+               data-tooltip-content="#tooltip_content" id="booking_to" value="<?php print agp_getValue($booking_data, 'to') ?>">
       </div>
     </div>
 
@@ -74,14 +72,16 @@
         <span><?php print t('Ngày đi'); ?></span>
         <input type="text" name="booking[check-in]" placeholder="10/05/2014"
                data-constraints="@NotEmpty @Required @Date"
-               id="date_check_in" class="hasDatepicker" value="<?php print agp_getValue($booking_data,'check-in')?>">
+               id="date_check_in" class="hasDatepicker"
+               value="<?php print agp_getValue($booking_data, 'check-in') ?>">
       </label></div>
 
     <div class="controlHolder"><label class="tmDatepicker">
         <span><?php print t('Ngày về'); ?></span>
         <input type="text" name="booking[check-out]" placeholder="20/05/2014"
                data-constraints="@NotEmpty @Required @Date" id="date_check_out"
-               class="hasDatepicker" value="<?php print agp_getValue($booking_data,'check-out')?>">
+               class="hasDatepicker"
+               value="<?php print agp_getValue($booking_data, 'check-out') ?>">
       </label></div>
     <div class="clear"></div>
   </div>
@@ -470,13 +470,51 @@
     });
 
     jQuery('.tooltip').tooltipster({
-      trigger: 'click',
+      trigger: 'custom',
+      triggerOpen: 'click',
+      triggerClose: 'click',
       contentAsHTML: true
+    })
+    ;
+
+    jQuery('#btn-search-ticket').on('click', function () {
+      jQuery('#bookingForm').submit();
+    });
+    var currentInputId = false;
+    jQuery('#booking_from').click(function () {
+      jQuery('#booking_from').tooltipster('open');
+      currentInputId = '#' + jQuery(this).attr('id');
+      console.log(currentInputId);
+    });
+    jQuery('#booking_to').click(function () {
+      jQuery('#booking_to').tooltipster('open');
+      currentInputId = '#' + jQuery(this).attr('id');
+      console.log(currentInputId);
     });
 
-    jQuery('#btn-search-ticket').on('click', function(){
-      jQuery('#bookingForm').submit();
-    })
+    jQuery('.province ul.col li').on('click', function () {
+      var text = jQuery(this).find("a").text();
+      console.log(text);
+      jQuery(currentInputId).val(text);
+      jQuery('.tooltip').tooltipster('close');
+    });
 
+//    jQuery(window)
+//      .on('click',
+//        function (e) {
+//          $('[data-toggle="popover"]')
+//            .each(
+//              function () {
+//                if (!$(this).is(e.target)
+//                  && $(this).has(
+//                    e.target).length === 0
+//                  && $('.popover')
+//                    .has(
+//                      e.target).length === 0) {
+//                  $(this).popover('hide');
+//                }
+//              });
+//        });
+//  }
   })
 </script>
