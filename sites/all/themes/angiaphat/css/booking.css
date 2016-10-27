@@ -574,15 +574,15 @@ button.ui-state-default:hover {
   line-height: 16px;
 }
 .province {
-  position: absolute;
-  display: none;
-  /* min-width: 965px; */
-  z-index: 200;
-  padding-bottom: 10px;
-  top: 35px;
-  left: 0px;
-  overflow-x: auto;
-  width: inherit;
+  /*position: absolute;*/
+  /*display: none;*/
+  /*!* min-width: 965px; *!*/
+  /*z-index: 200;*/
+  /*padding-bottom: 10px;*/
+  /*top: 35px;*/
+  /*left: 0px;*/
+  /*overflow-x: auto;*/
+  /*width: inherit;*/
 }
 .province label{
   color: #f55753
@@ -639,4 +639,8 @@ button.ui-state-default:hover {
 .panel-body:after, .panel-body:before {
   display: table;
   content: " ";
+}
+
+.tooltipster-base {
+  pointer-events: all !important;
 }

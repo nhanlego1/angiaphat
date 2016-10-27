@@ -11,6 +11,7 @@ stylesheets[all][] = css/stuck.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = font/font-awesome.css
 stylesheets[all][] = css/jquery.datetimepicker.min.css
+stylesheets[all][] = tooltipster/css/tooltipster.bundle.min.css
 ;add js to theme
 scripts[] = js/jquery-migrate-1.1.1.js
 scripts[] = js/script.js
@@ -28,7 +29,7 @@ scripts[] = js/jquery.placeholder.js
 scripts[] = js/owl.carousel.js
 scripts[] = js/custom.js
 scripts[] = js/jquery.datetimepicker.full.min.js
-
+scripts[] = tooltipster/js/tooltipster.bundle.min.js
 ;add region for template
 regions[highlighted] = Highlighted
 regions[sidebar_first] = Left sidebar
