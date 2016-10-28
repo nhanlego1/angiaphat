@@ -5,5 +5,5 @@ sites/*/settings*.php
 #sites/*/files
 sites/*/private
 .idea/vcs.xml
-.idea/workspace.xml
 .idea/*
+.idea/workspace.xml

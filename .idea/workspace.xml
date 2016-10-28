@@ -2,13 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="618d76f1-e636-47ae-a128-7792b4ebb2d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/angiaphat/css/jquery.datetimepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/angiaphat/css/jquery.datetimepicker.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/ctools/css/64d7d0a3c55866afec0187d45d6e1cfe.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/flat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/futurico/futurico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/futurico/futurico@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/line@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/minimal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/minimal@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/polaris/polaris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/polaris/polaris@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/square@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/flat/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/futurico/futurico.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/line.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/line/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/minimal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/minimal/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/polaris/polaris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/square.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/yellow.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/angiaphat/tooltipster/css/tooltipster.bundle.min.css" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/tooltipster/tooltipster.bundle.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/angiaphat/tooltipster/js/tooltipster.bundle.min.js" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/tooltipster/tooltipster.bundle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.info" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info" afterPath="$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/angiaphat/css/booking.css" afterPath="$PROJECT_DIR$/sites/all/themes/angiaphat/css/booking.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/angiaphat/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/angiaphat/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/angiaphat/js/booking.js" afterPath="$PROJECT_DIR$/sites/all/themes/angiaphat/js/booking.js" />
     </list>
     <ignored path="angiaphat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,6 +140,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -32,11 +153,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/style.css">
+      <file leaf-file-name="angiaphat.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="132" column="12" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="12" />
+            <state relative-caret-position="288">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -45,109 +166,342 @@
       <file leaf-file-name="booking.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/booking.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="580" column="2" selection-start-line="580" selection-start-column="2" selection-end-line="580" selection-end-column="2" />
-              <folding>
-                <marker date="1477498164634" expanded="true" signature="3282:3284" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="booking.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/booking.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.fancyform.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/jquery.fancyform.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="95" column="25" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="25" />
+            <state relative-caret-position="-2046">
+              <caret line="255" column="9" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticket-checking.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="booking.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminimal.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/adminimal.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ticket-checking.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            <state relative-caret-position="379">
+              <caret line="417" column="29" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
               <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#script#0;n#!!top" expanded="false" />
-                <marker date="1477498570292" expanded="false" signature="3506:3520" ph="..." />
-                <marker date="1477498570292" expanded="false" signature="4614:4628" ph="..." />
-                <marker date="1477498570292" expanded="false" signature="5689:5703" ph="..." />
+                <element signature="e#22577#22724#0#HTML" expanded="false" />
+                <element signature="e#22771#22916#0#HTML" expanded="false" />
+                <marker date="1477653457167" expanded="true" signature="1061:1136" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1085:1136" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1193:1447" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1247:1447" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1367:1447" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1523:1599" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1548:1599" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1656:1921" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1710:1921" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1788:1921" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="1987:2063" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2011:2063" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2017:2048" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2118:2175" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2146:2175" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2318:2380" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2450:2507" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2478:2507" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2652:2714" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2814:2889" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2838:2889" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="2938:2965" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="3035:3232" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="3135:3232" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="3567:3594" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="3661:3935" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="3702:3935" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="4282:4309" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="4375:4645" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="4412:4645" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5022:21362" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5077:21353" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5159:5200" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5162:5196" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5242:21342" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5278:5348" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5381:21329" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5433:21314" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5462:7943" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5548:5680" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5601:5675" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5699:5805" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5752:5800" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5824:5929" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5877:5924" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="5948:6054" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6001:6049" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6073:6180" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6126:6175" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6212:6335" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6256:6330" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6423:6529" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6476:6524" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6548:6665" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6601:6645" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6684:6789" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6737:6784" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6808:6914" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6861:6909" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6933:7041" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="6986:7036" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7060:7172" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7113:7167" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7191:7298" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7244:7293" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7317:7422" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7370:7417" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7441:7548" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7494:7543" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7567:7675" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7620:7670" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7694:7800" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7747:7795" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7819:7925" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7872:7920" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="7972:10059" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8058:8163" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8111:8158" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8182:8290" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8235:8285" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8322:8446" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8366:8441" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8513:8624" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8571:8619" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8656:8778" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8701:8773" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8859:8984" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="8904:8979" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9053:9159" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9107:9154" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9178:9286" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9232:9281" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9318:9469" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9363:9464" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9537:9652" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9591:9647" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9671:9778" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9725:9773" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9797:9914" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9851:9909" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9933:10041" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="9987:10036" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10088:12507" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10149:10257" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10203:10252" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10276:10398" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10334:10393" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10417:10534" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10475:10529" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10553:10661" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10607:10656" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10680:10786" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10734:10781" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10805:10913" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10859:10908" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10932:11038" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="10986:11033" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11057:11185" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11111:11180" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11204:11323" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11262:11318" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11342:11455" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11396:11450" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11474:11580" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11528:11575" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11599:11709" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11653:11704" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11728:11834" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11782:11829" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11853:11978" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11907:11973" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="11997:12102" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12051:12097" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12121:12235" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12175:12230" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12254:12360" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12308:12355" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12379:12489" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12433:12484" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12536:14816" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12612:12732" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12657:12727" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12813:12938" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="12858:12933" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13006:13134" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13060:13129" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13166:13291" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13211:13286" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13358:13465" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13412:13460" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13484:13593" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13538:13588" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13612:13720" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13666:13715" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13739:13848" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13793:13843" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13867:13981" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="13921:13976" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14000:14104" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14054:14099" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14123:14237" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14177:14232" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14256:14365" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14314:14360" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14384:14513" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14438:14508" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14532:14641" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14586:14636" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14673:14798" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14722:14793" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14845:16711" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14912:15024" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="14966:15019" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15056:15178" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15101:15173" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15257:15379" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15302:15374" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15449:15557" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15503:15552" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15576:15688" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15630:15683" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15707:15814" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15761:15809" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15833:15943" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15887:15938" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="15975:16116" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16020:16096" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16185:16291" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16239:16286" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16369:16491" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16414:16486" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16571:16693" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16616:16688" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16740:19060" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16805:16923" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16859:16918" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16942:17048" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="16996:17043" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17067:17180" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17121:17175" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17199:17327" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17253:17322" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17346:17463" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17400:17458" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17482:17588" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17536:17583" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17607:17715" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17661:17710" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17734:17845" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17788:17840" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17864:17969" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17918:17964" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="17988:18107" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18042:18102" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18126:18234" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18180:18229" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18253:18365" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18307:18360" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18384:18492" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18438:18487" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18511:18624" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18565:18619" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18643:18758" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18697:18753" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18777:18912" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18831:18907" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18931:19042" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="18985:19037" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19095:21297" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19161:19270" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19215:19265" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19289:19398" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19343:19393" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19417:19526" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19471:19521" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19545:19651" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19599:19646" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19670:19776" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19724:19771" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19795:19899" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19849:19894" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19918:20024" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="19972:20019" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20043:20152" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20097:20147" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20171:20282" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20225:20277" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20301:20407" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20355:20402" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20426:20530" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20480:20525" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20549:20654" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20603:20649" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20673:20779" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20727:20774" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20798:20902" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20852:20897" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20921:21029" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="20975:21024" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="21048:21154" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="21102:21149" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="21173:21279" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="21227:21274" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="21527:21565" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="21629:21690" ph="..." />
+                <marker date="1477653457167" expanded="true" signature="21668:21690" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tmStickUp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/tmStickUp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-499">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angiaphat.info" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info">
+      <file leaf-file-name="booking.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/js/booking.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding />
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#46#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.datetimepicker.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/jquery.datetimepicker.min.css">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.datetimepicker.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/jquery.datetimepicker.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/node.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,12 +519,9 @@
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/css/ie.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/css/grid.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.info" />
-        <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/js/booking.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/css/superfish.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/js/script.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/js/custom.js" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/agp_views/agp_views.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/views-view-unformatted--fe-danh-sach-product.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/agp_views/agp_views.module" />
@@ -180,7 +531,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/views/views-view-fields--san-pham.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/templates/views-view-list--tin-tuc.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/templates/views-view-unformatted--dich-vu.tpl.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/node--product.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/templates/views-view-fields--san-pham.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/template.php" />
@@ -191,9 +541,16 @@
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/css/style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info" />
+        <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/js/booking.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/css/booking.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/includes/booking.admin.inc" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/js/booking.js" />
       </list>
     </option>
   </component>
@@ -209,13 +566,16 @@
       <server host="agp.local" id="fb326fa6-7508-4d8c-80d7-509c9c8991ff" name="agp.local" />
     </servers>
   </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="agp.local" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="23" />
-    <option name="width" value="1924" />
-    <option name="height" value="985" />
+    <option name="x" value="1365" />
+    <option name="y" value="-4" />
+    <option name="width" value="1922" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -242,286 +602,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="booking" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="booking" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angiaphat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="databases" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,24 +617,22 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins" />
+      <recent name="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/js" />
+      <recent name="$PROJECT_DIR$/sites/all/modules/custom/booking/assets" />
+      <recent name="G:\devdesktop\site\angiaphat\sites\all\themes\angiaphat\js" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/angiaphat/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/tooltipster" />
       <recent name="G:\devdesktop\site\angiaphat\sites\all\themes\angiaphat\css" />
       <recent name="$PROJECT_DIR$/sites/all/themes/angiaphat/templates" />
       <recent name="$PROJECT_DIR$/sites/all/modules/custom/agp/includes/views/themes" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\devdesktop\site\angiaphat\sites\all\themes\angiaphat\js" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/angiaphat/templates" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/angiaphat/views" />
-      <recent name="$PROJECT_DIR$/sites/default" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/angiaphat/js" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -579,19 +662,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -613,34 +683,56 @@
       <workItem from="1477449286172" duration="719000" />
       <workItem from="1477456569776" duration="5143000" />
       <workItem from="1477491400844" duration="5931000" />
+      <workItem from="1477564422881" duration="169000" />
+      <workItem from="1477564721381" duration="2343000" />
+      <workItem from="1477621727881" duration="17050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72164000" />
+    <option name="totallyTimeSpent" value="91726000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1924" height="985" extended-state="0" />
+    <frame x="1365" y="-4" width="1922" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.275076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31761006" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40985325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40985325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21383648" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19358289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40985325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -662,7 +754,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -675,60 +767,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agp/agp.info" />
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agp/agp.module" />
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agp/includes/views/themes/views-view-unformatted--danh-sach-san-pham--page.tpl.php" />
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="1432" column="7" selection-start-line="1432" selection-start-column="2" selection-end-line="1432" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/image/image.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18342">
-          <caret line="1022" column="9" selection-start-line="1022" selection-start-column="9" selection-end-line="1022" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/field/field.multilingual.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="267" column="39" selection-start-line="267" selection-start-column="39" selection-end-line="267" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/bootstrap.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="2574" column="0" selection-start-line="2574" selection-start-column="0" selection-end-line="2574" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/field/field.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="798" column="0" selection-start-line="798" selection-start-column="0" selection-end-line="798" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/field/field.info.class.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/field/field.info.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="523" column="0" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/templates/views-view-unformatted--tin-tuc.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -762,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/adminimal.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -794,13 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="1528" column="0" selection-start-line="1528" selection-start-column="0" selection-end-line="1528" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -858,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,9 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,9 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,9 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,9 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,19 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Html/js/jquery.ui.totop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,25 +954,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/booking.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/jquery.fancyform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
+        <state relative-caret-position="1458">
           <caret line="95" column="25" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,21 +968,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-74">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/node.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="126">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/tmStickUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1009,53 +996,425 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/jquery.datetimepicker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="2376">
           <caret line="132" column="12" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/tooltipster/tooltipster.bundle.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/tooltipster/tooltipster.bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/demo/js/zepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/icheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1728">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/square/_all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/plugins/icheck/skins/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/booking.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="580" column="2" selection-start-line="580" selection-start-column="2" selection-end-line="580" selection-end-column="2" />
+        <state relative-caret-position="-2046">
+          <caret line="255" column="9" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/booking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
           <folding>
-            <marker date="1477498164634" expanded="true" signature="3282:3284" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/adminimal.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/includes/booking.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        <state relative-caret-position="379">
+          <caret line="417" column="29" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-            <marker date="1477498570292" expanded="false" signature="3506:3520" ph="..." />
-            <marker date="1477498570292" expanded="false" signature="4614:4628" ph="..." />
-            <marker date="1477498570292" expanded="false" signature="5689:5703" ph="..." />
+            <element signature="e#22577#22724#0#HTML" expanded="false" />
+            <element signature="e#22771#22916#0#HTML" expanded="false" />
+            <marker date="1477653457167" expanded="true" signature="1061:1136" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1085:1136" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1193:1447" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1247:1447" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1367:1447" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1523:1599" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1548:1599" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1656:1921" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1710:1921" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1788:1921" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="1987:2063" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2011:2063" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2017:2048" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2118:2175" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2146:2175" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2318:2380" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2450:2507" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2478:2507" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2652:2714" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2814:2889" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2838:2889" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="2938:2965" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="3035:3232" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="3135:3232" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="3567:3594" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="3661:3935" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="3702:3935" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="4282:4309" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="4375:4645" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="4412:4645" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5022:21362" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5077:21353" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5159:5200" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5162:5196" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5242:21342" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5278:5348" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5381:21329" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5433:21314" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5462:7943" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5548:5680" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5601:5675" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5699:5805" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5752:5800" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5824:5929" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5877:5924" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="5948:6054" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6001:6049" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6073:6180" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6126:6175" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6212:6335" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6256:6330" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6423:6529" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6476:6524" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6548:6665" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6601:6645" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6684:6789" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6737:6784" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6808:6914" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6861:6909" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6933:7041" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="6986:7036" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7060:7172" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7113:7167" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7191:7298" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7244:7293" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7317:7422" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7370:7417" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7441:7548" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7494:7543" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7567:7675" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7620:7670" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7694:7800" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7747:7795" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7819:7925" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7872:7920" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="7972:10059" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8058:8163" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8111:8158" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8182:8290" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8235:8285" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8322:8446" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8366:8441" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8513:8624" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8571:8619" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8656:8778" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8701:8773" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8859:8984" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="8904:8979" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9053:9159" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9107:9154" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9178:9286" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9232:9281" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9318:9469" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9363:9464" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9537:9652" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9591:9647" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9671:9778" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9725:9773" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9797:9914" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9851:9909" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9933:10041" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="9987:10036" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10088:12507" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10149:10257" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10203:10252" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10276:10398" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10334:10393" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10417:10534" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10475:10529" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10553:10661" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10607:10656" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10680:10786" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10734:10781" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10805:10913" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10859:10908" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10932:11038" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="10986:11033" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11057:11185" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11111:11180" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11204:11323" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11262:11318" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11342:11455" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11396:11450" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11474:11580" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11528:11575" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11599:11709" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11653:11704" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11728:11834" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11782:11829" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11853:11978" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11907:11973" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="11997:12102" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12051:12097" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12121:12235" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12175:12230" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12254:12360" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12308:12355" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12379:12489" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12433:12484" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12536:14816" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12612:12732" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12657:12727" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12813:12938" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="12858:12933" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13006:13134" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13060:13129" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13166:13291" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13211:13286" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13358:13465" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13412:13460" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13484:13593" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13538:13588" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13612:13720" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13666:13715" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13739:13848" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13793:13843" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13867:13981" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="13921:13976" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14000:14104" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14054:14099" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14123:14237" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14177:14232" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14256:14365" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14314:14360" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14384:14513" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14438:14508" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14532:14641" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14586:14636" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14673:14798" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14722:14793" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14845:16711" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14912:15024" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="14966:15019" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15056:15178" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15101:15173" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15257:15379" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15302:15374" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15449:15557" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15503:15552" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15576:15688" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15630:15683" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15707:15814" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15761:15809" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15833:15943" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15887:15938" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="15975:16116" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16020:16096" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16185:16291" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16239:16286" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16369:16491" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16414:16486" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16571:16693" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16616:16688" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16740:19060" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16805:16923" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16859:16918" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16942:17048" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="16996:17043" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17067:17180" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17121:17175" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17199:17327" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17253:17322" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17346:17463" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17400:17458" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17482:17588" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17536:17583" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17607:17715" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17661:17710" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17734:17845" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17788:17840" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17864:17969" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17918:17964" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="17988:18107" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18042:18102" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18126:18234" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18180:18229" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18253:18365" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18307:18360" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18384:18492" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18438:18487" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18511:18624" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18565:18619" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18643:18758" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18697:18753" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18777:18912" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18831:18907" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18931:19042" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="18985:19037" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19095:21297" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19161:19270" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19215:19265" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19289:19398" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19343:19393" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19417:19526" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19471:19521" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19545:19651" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19599:19646" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19670:19776" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19724:19771" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19795:19899" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19849:19894" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19918:20024" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="19972:20019" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20043:20152" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20097:20147" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20171:20282" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20225:20277" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20301:20407" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20355:20402" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20426:20530" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20480:20525" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20549:20654" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20603:20649" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20673:20779" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20727:20774" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20798:20902" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20852:20897" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20921:21029" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="20975:21024" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="21048:21154" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="21102:21149" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="21173:21279" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="21227:21274" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="21527:21565" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="21629:21690" ph="..." />
+            <marker date="1477653457167" expanded="true" signature="21668:21690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/js/booking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
           </folding>
         </state>
       </provider>

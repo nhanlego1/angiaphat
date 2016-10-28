@@ -15,20 +15,12 @@
       <span>&nbsp;</span>
       <div class="tmRadio">
         <div class="lf">
-          <input name="booking[type]" type="radio"
-                 data-constraints="@RadioGroupChecked(name=&quot;Hotel&quot;, groups=[RadioGroup])"
-                 checked="checked"
-                 id="regula-generated-720138" style="display: none"><strong
-            class=""></strong>
+          <input name="booking[type]" type="radio" checked="checked" value="1_way" id="booking_type_1_way" class="icheck" <?php print (agp_getValue($booking_data, 'type') == '1_way') ? 'checked': ''?>>
           <span><?php print t('Một chiều') ?></span>
           <div class="clear"></div>
-
         </div>
         <div class="rf">
-          <input name="booking[type]" type="radio"
-                 data-constraints="@RadioGroupChecked(name=&quot;Hotel&quot;, groups=[RadioGroup])"
-                 id="regula-generated-209086" style="display: none"><strong
-            class="unchecked"></strong>
+          <input name="booking[type]" type="radio" value="2_way" id="booking_type_2_way" class="icheck" <?php print (agp_getValue($booking_data, 'type', '2_way') == '2_way') ? 'checked': ''?>>
           <span><?php print t('Khứ hồi') ?></span>
           <div class="clear"></div>
 
@@ -37,16 +29,14 @@
     </div>
   </div>
   <div class="sect2">
-
     <div class="count">
       <span class="col1">02.</span> <?php print t('Chiều đi') ?>
     </div>
     <div class="controlHolder">
       <span>&nbsp;</span>
       <div class="tmInput">
-        <input name="booking[from]" placeholder="" type="text" class="tooltip"
-               data-tooltip-content="#tooltip_content"
-               id="booking_from" value="<?php print agp_getValue($booking_data, 'from') ?>">
+        <input name="booking[from]" placeholder="" type="text" class="tooltip" data-tooltip-content="#tooltip_content"
+               id="booking_from" value="<?php print agp_getValue($booking_data, 'from') ?>" required>
       </div>
     </div>
   </div>
@@ -59,7 +49,8 @@
       <span>&nbsp;</span>
       <div class="tmInput">
         <input name="booking[to]" placeholder="" type="text" class="tooltip"
-               data-tooltip-content="#tooltip_content" id="booking_to" value="<?php print agp_getValue($booking_data, 'to') ?>">
+               data-tooltip-content="#tooltip_content" id="booking_to"
+               value="<?php print agp_getValue($booking_data, 'to') ?>">
       </div>
     </div>
 
@@ -70,17 +61,13 @@
 
     <div class="controlHolder"><label class="tmDatepicker">
         <span><?php print t('Ngày đi'); ?></span>
-        <input type="text" name="booking[check-in]" placeholder="10/05/2014"
-               data-constraints="@NotEmpty @Required @Date"
-               id="date_check_in" class="hasDatepicker"
+        <input type="text" name="booking[check-in]" placeholder="10/05/2014" id="booking_check_in" class="hasDatepicker"
                value="<?php print agp_getValue($booking_data, 'check-in') ?>">
       </label></div>
 
     <div class="controlHolder"><label class="tmDatepicker">
         <span><?php print t('Ngày về'); ?></span>
-        <input type="text" name="booking[check-out]" placeholder="20/05/2014"
-               data-constraints="@NotEmpty @Required @Date" id="date_check_out"
-               class="hasDatepicker"
+        <input type="text" name="booking[check-out]" placeholder="20/05/2014" id="booking_check_out" class="hasDatepicker"
                value="<?php print agp_getValue($booking_data, 'check-out') ?>">
       </label></div>
     <div class="clear"></div>
@@ -93,46 +80,26 @@
     <div class="inn1">
       <span><?php print t('Người lớn <br> trên 12T') ?></span>
       <div class="controlHolder">
-        <select name="booking[people_adult]" class="tmSelect auto"
-                data-class="tmSelect tmSelect2"
-                data-constraints="">
+        <select name="booking[people_adult]" class="tmSelect auto" data-class="tmSelect tmSelect2">
           <option>&nbsp;</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
+          <?php $i = 1; $current = agp_getValue($booking_data,'people_adult', 0);$max = agp_getValue($booking_data,'max_people.adult', 10)?>
+          <?php while($i <= $max):?>
+            <option <?php print 'value="'.$i.'"'; print (($i == $current)? 'selected':''); ?>><?php print $i; $i++;?></option>
+          <?php endwhile;?>
         </select>
-        <!--        <ul class="tmSelect tmSelect2 auto trans-element">-->
-        <!--          <li><span>&nbsp;</span>-->
-        <!--            <ul style="display: none;" class="transformSelectDropdown">-->
-        <!--              <li data-settings="" class=""><span>1</span></li>-->
-        <!--              <li data-settings="" class=""><span>2</span></li>-->
-        <!--              <li data-settings="" class=""><span>3</span></li>-->
-        <!--            </ul>-->
-        <!--          </li>-->
-        <!--        </ul>-->
       </div>
     </div>
     <div class="inn1">
       <span><?php print t('Trẻ em <br> 2T - 11T') ?></span>
       <div class="controlHolder"><select name="booking[people_child_mid]"
                                          class="tmSelect auto"
-                                         data-class="tmSelect tmSelect2"
-                                         data-constraints=""
-                                         style="">
+                                         data-class="tmSelect tmSelect2">
           <option>&nbsp;</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
+          <?php $i = 1; $current = agp_getValue($booking_data,'people_child_mid', 0);$max = agp_getValue($booking_data,'max_people.child_medium', 10)?>
+          <?php while($i <= $max):?>
+            <option <?php print 'value="'.$i.'"'; print (($i == $current)? 'selected':''); ?>><?php print $i; $i++;?></option>
+          <?php endwhile;?>
         </select>
-        <!--        <ul class="tmSelect tmSelect2 auto trans-element">-->
-        <!--          <li><span>&nbsp;</span>-->
-        <!--            <ul style="display: none;" class="transformSelectDropdown">-->
-        <!--              <li data-settings="" class=""><span>1</span></li>-->
-        <!--              <li data-settings="" class=""><span>2</span></li>-->
-        <!--              <li data-settings="" class=""><span>3</span></li>-->
-        <!--            </ul>-->
-        <!--          </li>-->
-        <!--        </ul>-->
       </div>
 
     </div>
@@ -140,22 +107,13 @@
       <span><?php print t('Trẻ em <br> dưới 2T') ?></span>
       <div class="controlHolder"><select name="booking[people_child]"
                                          class="tmSelect auto"
-                                         data-class="tmSelect tmSelect2"
-                                         data-constraints=""
-                                         style="">
+                                         data-class="tmSelect tmSelect2">
           <option>&nbsp;</option>
-          <option>1</option>
-          <option>2</option>
+          <?php $i = 1; $current = agp_getValue($booking_data,'people_child', 0);$max = agp_getValue($booking_data,'max_people.child', 10)?>
+          <?php while($i <= $max):?>
+            <option <?php print 'value="'.$i.'"'; print (($i == $current)? 'selected':''); ?>><?php print $i; $i++;?></option>
+          <?php endwhile;?>
         </select>
-        <!--        <ul class="tmSelect tmSelect2 auto trans-element">-->
-        <!--          <li><span>&nbsp;</span>-->
-        <!--            <ul style="display: none;" class="transformSelectDropdown">-->
-        <!--              <li data-settings="" class=""><span>0</span></li>-->
-        <!--              <li data-settings="" class=""><span>1</span></li>-->
-        <!--              <li data-settings="" class=""><span>2</span></li>-->
-        <!--            </ul>-->
-        <!--          </li>-->
-        <!--        </ul>-->
       </div>
     </div>
   </div>
@@ -444,40 +402,31 @@
 <script>
   jQuery(document).ready(function () {
     var dateFormat = 'd/m/Y';
-    jQuery.datetimepicker.setLocale('vi');
-    jQuery('#date_check_in').datetimepicker({
-      format: dateFormat,
-      minDate: 0,
-      startDate: new Date(),
-      onShow: function (ct) {
-        this.setOptions({
-          maxDate: jQuery('#date_check_out').val() ? jQuery('#date_check_out').val() : false
-        })
-      },
-      formatDate: dateFormat,
-      timepicker: false,
-    });
-    jQuery('#date_check_out').datetimepicker({
-      format: dateFormat,
-      onShow: function (ct) {
-        this.setOptions({
-//          minDate: jQuery('#date_check_in').val() ? "'"+jQuery('#date_check_in').val()+"',formatDate:'d/m/Y'" : 0
-          minDate: jQuery('#date_check_in').val() ? jQuery('#date_check_in').val() : 0
-        })
-      },
-      formatDate: dateFormat,
-      timepicker: false
-    });
-
-    jQuery('.tooltip').tooltipster({
-      trigger: 'custom',
-      triggerOpen: 'click',
-      triggerClose: 'click',
-      contentAsHTML: true
-    })
-    ;
-
+    bookingHelper.initChooseDateTime();
+    bookingHelper.initChooseProvice();
+    bookingHelper.initICheck();
+//    jQuery('.tooltip').tooltipster({
+//      trigger: 'custom',
+//      triggerOpen: 'click',
+//      triggerClose: 'click',
+//      contentAsHTML: true,
+//      functionInit: function (instance, helper) {
+//        instance.close();
+//      }
+//    })
+//    ;
+bookingHelper.handlerEvent();
     jQuery('#btn-search-ticket').on('click', function () {
+//      jQuery("#productSubmit").validate({
+//        onsubmit: false,
+//        submitHandler: function(form) {
+//          if (jQuery(form).valid())
+//          {
+//            form.submit();
+//          }
+//          return false; // prevent normal form posting
+//        }
+//      });
       jQuery('#bookingForm').submit();
     });
     var currentInputId = false;
@@ -502,19 +451,35 @@
 //    jQuery(window)
 //      .on('click',
 //        function (e) {
-//          $('[data-toggle="popover"]')
+//          jQuery('.tooltipster-base')
 //            .each(
 //              function () {
-//                if (!$(this).is(e.target)
-//                  && $(this).has(
+//                if (!jQuery(this).is(e.target)
+//                  && jQuery(this).has(
 //                    e.target).length === 0
-//                  && $('.popover')
+//                  && jQuery('.tooltipster-base')
 //                    .has(
 //                      e.target).length === 0) {
-//                  $(this).popover('hide');
+//                  jQuery('.tooltip').tooltipster('close');
 //                }
 //              });
 //        });
-//  }
+
+//    jQuery('input[type="radio"].icheck').iCheck({
+//      checkboxClass: 'icheckbox_flat',
+//      radioClass: 'iradio_flat-blue'
+//    });
+//    jQuery('input#booking_type_1_way').on('ifChecked', function () {
+//      jQuery('#booking_to').attr('disabled', 'disabled');
+//      jQuery('#booking_check_out').attr('disabled', 'disabled');
+//    });
+//    jQuery('input#booking_type_2_way').on('ifChecked', function () {
+//      jQuery('#booking_to').removeAttr('disabled');
+//      jQuery('#booking_check_out').removeAttr('disabled');
+//    })
+//    jQuery('input#booking_type_1_way').iCheck('check', function(){
+//      jQuery('#booking_to').attr('disabled', 'disabled');
+//      jQuery('#booking_check_out').attr('disabled', 'disabled');
+//    });
   })
 </script>

@@ -3,4 +3,11 @@ description = "Plugin allow check cheaper ticket of 3 company"
 package = "An Gia Phat"
 core = "7.x"
 
+;add css for module
+stylesheets[all][] = assets/plugins/tooltipster/tooltipster.bundle.min.css
+stylesheets[all][] = assets/plugins/icheck/skins/flat/_all.css
 
+;add js for module
+scripts[] = assets/plugins/tooltipster/tooltipster.bundle.min.js
+scripts[] = assets/plugins/icheck/icheck.min.js
+scripts[] = assets/js/booking.js

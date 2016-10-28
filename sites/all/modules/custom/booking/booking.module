@@ -17,11 +17,15 @@ function booking_menu() {
     'page callback' => 'booking_ticket_checking',
     'type' => MENU_CALLBACK
   );
-//  $items['ticket/checking'] = array(
-//    'access arguments' => array('access content'),
-//    'page callback' => 'booking_ticket_checking',
-//    'type' => MENU_CALLBACK
-//  );
+  $items['admin/config/booking'] = array(
+    'access arguments' => array('administrator'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array(
+      'booking_setting_form'
+    ),
+    'file' => 'includes/booking.admin.inc',
+    'type' => MENU_NORMAL_ITEM
+  );
   return $items;
 }
 
@@ -48,7 +52,18 @@ function booking_ticket_checking() {
   if (isset($_POST['booking_action']) && !empty($_POST['booking_action'])) {
     $data['booking_data'] = $_POST['booking'];
   }
-
+  else {
+    $data['booking_data']['max_people'] = array(
+      'adult' => variable_get('max_people_adult', 10),
+      'child_medium' => variable_get('max_people_child_medium', 10),
+      'child' => variable_get('max_people_child', 10),
+    );
+  }
+  $data['booking_data']['max_people'] = array(
+    'adult' => variable_get('max_people_adult', 10),
+    'child_medium' => variable_get('max_people_child_medium', 10),
+    'child' => variable_get('max_people_child', 10),
+  );
 
   return theme('ticket_checking', $data);
 }
@@ -70,6 +85,11 @@ function booking_block_view($delta = '') {
     case 'ticket_form':
       $data = array();
       $data['booking_data'] = array();
+      $data['booking_data']['max_people'] = array(
+        'adult' => variable_get('max_people_adult', 10),
+        'child_medium' => variable_get('max_people_child_medium', 10),
+        'child' => variable_get('max_people_child', 10),
+      );
       return array(
         'subject' => t('Ticket Form'),
         'content' => theme('ticket_checking', $data),
