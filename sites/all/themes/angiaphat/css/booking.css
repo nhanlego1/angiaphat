@@ -23,7 +23,7 @@
   margin-left: 6px;
 }
 
-a.subm {
+button.subm {
   left: 50%;
   text-transform: uppercase;
   margin-left: -120px;
@@ -34,18 +34,20 @@ a.subm {
   color: #fff;
   padding: 12px 23px 13px 34px;
   font: bold 20px/22px 'Roboto Condensed', sans-serif;
+  border: 0;
+  cursor: pointer;
 }
 
-a.subm:hover {
+button.subm:hover {
   color: #fff;
   background-color: #dcdcdc;
 }
 
-a.subm:hover:after {
+button.subm:hover:after {
   background-color: #febf2b;
 }
 
-a.subm:after {
+button.subm:after {
   transition: 0.5s ease;
     -o-transition: 0.5s ease;
     -webkit-transition: 0.5s ease;
@@ -576,6 +578,11 @@ button.ui-state-default:hover {
   list-style-type: none;
   line-height: 16px;
 }
+.tooltipster-content {
+  /* max-height: 400px; */
+  /* min-height: 300px; */
+  /* min-width:300px; */
+}
 .province {
   /*position: absolute;*/
   /*display: none;*/
@@ -586,8 +593,8 @@ button.ui-state-default:hover {
   /*left: 0px;*/
   /*overflow-x: auto;*/
   /*width: inherit;*/
-  /* width: 754px; */
-  overflow-x: auto;
+  /* min-width: 754px; */
+  /* overflow-x: scroll; */
 }
 .province label{
   color: #f55753
@@ -618,7 +625,7 @@ button.ui-state-default:hover {
   background: transparent;
   border-radius: 0px;
   border-bottom: 0px;
-  padding: 20px 20px 7px 20px;
+  padding: 10px;
   position: relative;
   z-index: 3;
   min-height: 15px;
@@ -638,8 +645,8 @@ button.ui-state-default:hover {
 .panel .panel-body {
   padding: 5px 10px 0px;
   height: 100%;
-  width: 100%;
-  overflow-x: auto;
+  /* width: 100%; */
+  /* overflow-x: auto; */
 }
 
 .panel-body:after, .panel-body:before {
@@ -649,4 +656,20 @@ button.ui-state-default:hover {
 
 .tooltipster-base {
   pointer-events: all !important;
+}
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 1024px) {
+    .tooltipster-content {
+        /*max-height:400px;*/
+        /*width: 1000px;*/
+    }
+}
+
+@media screen and (max-width:768px){
+  .sect2+.sect2, .sect4 {
+  margin-left: 0px;
+}
+.sect4 .controlHolder {
+  width:100%;
+}
 }

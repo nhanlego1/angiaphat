@@ -46,25 +46,7 @@ function booking_theme() {
  * Implement booking_ticket_checking
  */
 function booking_ticket_checking() {
-  dsm($_POST);
-  $data = array();
-  $data['booking_data'] = array();
-  if (isset($_POST['booking_action']) && !empty($_POST['booking_action'])) {
-    $data['booking_data'] = $_POST['booking'];
-  }
-  else {
-    $data['booking_data']['max_people'] = array(
-      'adult' => variable_get('max_people_adult', 10),
-      'child_medium' => variable_get('max_people_child_medium', 10),
-      'child' => variable_get('max_people_child', 10),
-    );
-  }
-  $data['booking_data']['max_people'] = array(
-    'adult' => variable_get('max_people_adult', 10),
-    'child_medium' => variable_get('max_people_child_medium', 10),
-    'child' => variable_get('max_people_child', 10),
-  );
-
+  $data = _build_data_booking();
   return theme('ticket_checking', $data);
 }
 
@@ -83,13 +65,7 @@ function booking_block_info() {
 function booking_block_view($delta = '') {
   switch ($delta) {
     case 'ticket_form':
-      $data = array();
-      $data['booking_data'] = array();
-      $data['booking_data']['max_people'] = array(
-        'adult' => variable_get('max_people_adult', 10),
-        'child_medium' => variable_get('max_people_child_medium', 10),
-        'child' => variable_get('max_people_child', 10),
-      );
+      $data = _build_data_booking();
       return array(
         'subject' => t('Ticket Form'),
         'content' => theme('ticket_checking', $data),
@@ -97,5 +73,24 @@ function booking_block_view($delta = '') {
       break;
 
   }
+}
+
+/**
+ * Build booking data
+ */
+function _build_data_booking() {
+  $data = array();
+  $data['booking_data'] = array();
+  if (isset($_POST['booking_action']) && !empty($_POST['booking_action'])) {
+    $data['booking_data'] = $_POST['booking'];
+  }
+
+  $data['booking_data']['max_people'] = array(
+    'adult' => variable_get('max_people_adult', 10),
+    'child_medium' => variable_get('max_people_child_medium', 10),
+    'child' => variable_get('max_people_child', 10),
+  );
+
+  return $data;
 }
 
