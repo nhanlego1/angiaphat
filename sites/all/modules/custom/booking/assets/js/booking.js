@@ -18,7 +18,7 @@ var bookingHelper = (function ($) {
             radioClass: 'iradio_flat-blue'
         });
         if (jQuery('input#booking_type_1_way').is(':checked')) {
-            pub.disableInputID('booking_to');
+           // pub.disableInputID('booking_to');
             pub.disableInputID('booking_check_out');
         }
     };
