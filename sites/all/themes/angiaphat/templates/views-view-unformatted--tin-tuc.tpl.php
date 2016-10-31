@@ -13,6 +13,6 @@
 
   <div class="clear"></div>
   <?php if (count($rows) > 0 && @is_null($view->total_rows)): ?>
-    <a href="<?php print url('tin-tuc')?>" class="btn">See all deals</a>
+    <a href="<?php print url('tin-tuc')?>" class="btn">Xem thêm</a>
   <?php endif; ?>
 </div>
