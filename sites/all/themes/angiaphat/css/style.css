@@ -350,8 +350,7 @@ header h1 a img {
 }
 
 .booking_block .title {
-    background: url(../images/fill1.png) 0 0 repeat;
-    border: 1px solid #ffba17;
+    
     color: #fff;
     display: inline-block;
     padding: 9px 30px 8px 18px;
@@ -361,6 +360,11 @@ header h1 a img {
     margin-top: -8%;
     width: 48%;
 }
+.booking_block .title img{
+background: url(../images/fill1.png) 0 0 repeat;
+    border: 1px solid #ffba17;
+    padding: 2px;
+    }
 
 .booking_block .title span {
     font-size: 34px;
