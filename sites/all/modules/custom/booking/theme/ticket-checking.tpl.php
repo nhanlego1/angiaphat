@@ -93,9 +93,10 @@
                 data-class="tmSelect tmSelect2">
           <option></option>
           <?php $i = 1;
-          $current = agp_getValue($booking_data, 'people_adult', 0);
-          $max = agp_getValue($booking_data, 'max_people.adult', 10) ?>
+          $current = agp_getValue($booking_data, 'people_adult', 1);
+          $max = agp_getValue($booking_data, 'max_people.adult', 30) ?>
           <?php while ($i <= $max): ?>
+
             <option <?php print 'value="' . $i . '"';
             print (($i == $current) ? 'selected' : ''); ?>><?php print $i;
               $i++; ?></option>
@@ -110,8 +111,8 @@
                                          data-class="tmSelect tmSelect2">
           <option></option>
           <?php $i = 1;
-          $current = agp_getValue($booking_data, 'people_child_mid', 0);
-          $max = agp_getValue($booking_data, 'max_people.child_medium', 10) ?>
+          $current = agp_getValue($booking_data, 'people_child_mid', 1);
+          $max = agp_getValue($booking_data, 'max_people.child_medium', 30) ?>
           <?php while ($i <= $max): ?>
             <option <?php print 'value="' . $i . '"';
             print (($i == $current) ? 'selected' : ''); ?>><?php print $i;
@@ -128,8 +129,8 @@
                                          data-class="tmSelect tmSelect2">
           <option></option>
           <?php $i = 1;
-          $current = agp_getValue($booking_data, 'people_child', 0);
-          $max = agp_getValue($booking_data, 'max_people.child', 10) ?>
+          $current = agp_getValue($booking_data, 'people_child', 1);
+          $max = agp_getValue($booking_data, 'max_people.child', 30) ?>
           <?php while ($i <= $max): ?>
             <option <?php print 'value="' . $i . '"';
             print (($i == $current) ? 'selected' : ''); ?>><?php print $i;
