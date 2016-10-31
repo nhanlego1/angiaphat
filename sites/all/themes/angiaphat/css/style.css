@@ -542,6 +542,7 @@ strong.col4 .fa {
 
 .box {
     padding-top: 42px;
+        border: 1px solid #ededed;
 }
 
 .box_top {
@@ -557,7 +558,7 @@ strong.col4 .fa {
 }
 
 .box_bot {
-    border: 1px solid #ededed;
+
     padding: 23px 19px 24px;
     border-top: 0;
 }
