@@ -66,11 +66,11 @@ var bookingHelper = (function ($) {
     };
     pub.handlerEvent = function () {
         jQuery('input#booking_type_1_way').on('ifChecked', function () {
-            pub.disableInputID('booking_to');
+           // pub.disableInputID('booking_to');
             pub.disableInputID('booking_check_out');
         });
         jQuery('input#booking_type_2_way').on('ifChecked', function () {
-            pub.enableInputID('booking_to');
+           // pub.enableInputID('booking_to');
             pub.enableInputID('booking_check_out');
         });
     };
