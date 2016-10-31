@@ -91,7 +91,7 @@
       <div class="controlHolder">
         <select name="booking[people_adult]" class="tmSelect auto"
                 data-class="tmSelect tmSelect2">
-          <option></option>
+          
           <?php $i = 1;
           $current = agp_getValue($booking_data, 'people_adult', 1);
           $max = agp_getValue($booking_data, 'max_people.adult', 30) ?>
