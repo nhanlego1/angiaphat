@@ -359,6 +359,7 @@ header h1 a img {
     font: bold 36px/36px 'Roboto Condensed', sans-serif;
     margin-left: 50%;
     margin-top: -8%;
+    width: 48%;
 }
 
 .booking_block .title span {
