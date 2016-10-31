@@ -669,7 +669,7 @@ button.ui-state-default:hover {
   .sect2+.sect2, .sect4 {
   margin-left: 0px;
 }
-.sect4 .controlHolder {
+  .sect4,.sect4 .controlHolder {
   width:100%;
 }
 }
