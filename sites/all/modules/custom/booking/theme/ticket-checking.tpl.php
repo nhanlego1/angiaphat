@@ -312,7 +312,6 @@
     bookingHelper.initChooseProvice();
     bookingHelper.initICheck();
     bookingHelper.handlerEvent();
-
     var currentInputId = false;
     jQuery('#bookingFilterFrom').click(function () {
       jQuery('#bookingFilterFrom').tooltipster('open');
@@ -322,7 +321,6 @@
       jQuery('#bookingFilterTo').tooltipster('open');
       currentInputId = '#' + jQuery(this).attr('id');
     });
-
     jQuery('.province ul.col li').on('click', function () {
       var text = jQuery(this).find("a").text();
       console.log(text);
