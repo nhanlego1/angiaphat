@@ -1,4 +1,3 @@
-@import '../font/font-awesome.css';
 /* CSS for jquery.fancyform.js */
 /*custom mixins */
 /*end custom mixins */
@@ -234,7 +233,7 @@ input[type="text"]:disabled {
   position: absolute;
   background-color: #fff;
   right: 5px;
-  left: 5;
+  left: 5px;
   display: block;
   bottom: -12px;
   font-weight: normal;
@@ -680,6 +679,7 @@ table td, table th {
   padding: 8px 10px;
   border: 0;
   color: #000;
+  text-align: center;
 }
 
 table th {
@@ -688,9 +688,37 @@ table th {
 }
 
 table thead tr {
-  background-color: #FFFFBF!important;
+  background-color: #577f9f!important;
+}
+.logo-airline {
+  width: 50px;
+  height: 30px;
+  margin: 0 auto;
+}
+.vietjetair {
+  background: url("../images/vietjetair.png") no-repeat;
+}
+.jetstar {
+  background: url("../images/jetstar.png") no-repeat;
 }
 
+table.tbl-ticket-result .price {
+    color: #f55753;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    /* margin-bottom: 22px; */
+}
+
+table.tbl-ticket-result .depart-time {
+    color: #6d5cae!important;
+    font-weight: bold;
+    font-size: 24px;
+}
+.ticket-result {
+  margin-bottom: 30px;
+}
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1024px) {
     .tooltipster-content {
