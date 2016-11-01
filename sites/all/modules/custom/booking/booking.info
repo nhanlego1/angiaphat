@@ -4,6 +4,7 @@ package = "An Gia Phat"
 core = "7.x"
 
 ;add css for module
+stylesheets[all][] = assets/css/booking.css
 stylesheets[all][] = assets/plugins/tooltipster/tooltipster.bundle.min.css
 stylesheets[all][] = assets/plugins/icheck/skins/flat/_all.css
 

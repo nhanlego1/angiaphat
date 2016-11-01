@@ -4,7 +4,7 @@ core = 7.x
 engine = phptemplate
 
 ;add css for template
-stylesheets[all][] = css/booking.css
+
 stylesheets[all][] = css/form.css
 stylesheets[all][] = css/owl.carousel.css
 stylesheets[all][] = css/stuck.css
