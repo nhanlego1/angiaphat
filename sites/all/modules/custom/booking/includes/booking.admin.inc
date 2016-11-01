@@ -15,6 +15,34 @@ function booking_setting_form($form, &$form_state) {
     '#description' => t('Booking Config.'),
     '#group' => 'setting_form'
   );
+  $form ['common']['booking_rest_url'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Booking End-point (baseUrl)'),
+    '#required' => TRUE,
+    '#description' => 'URL API REST is deployed (including trailing slash)',
+    '#default_value' => variable_get('booking_rest_url', 'http://api.atvietnam.vn'),
+    '#weight' => 1,
+    '#group' => 'setting_form'
+  );
+  $form ['common']['api_username'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Api Username'),
+    '#required' => TRUE,
+    '#default_value' => variable_get('api_username', ''),
+    '#weight' => 1,
+    '#group' => 'setting_form'
+  );
+
+  $form ['common']['api_password'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Api Password'),
+    '#required' => TRUE,
+    '#default_value' => variable_get('api_password', ''),
+    '#weight' => 1,
+    '#group' => 'setting_form'
+  );
+
+
   $form ['common']['max_people_adult'] = array(
     '#type' => 'textfield',
     '#title' => t('Số lượng người lớn tối đa'),

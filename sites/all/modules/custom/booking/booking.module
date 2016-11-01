@@ -39,6 +39,11 @@ function booking_theme() {
     'path' => drupal_get_path('module', 'booking') . '/theme',
     'template' => 'ticket-checking',
   );
+  $items['ticket_results'] = array(
+    'render element' => 'element',
+    'path' => drupal_get_path('module', 'booking') . '/theme',
+    'template' => 'ticket-results',
+  );
   return $items;
 }
 
@@ -56,6 +61,7 @@ function booking_ticket_checking() {
 function booking_block_info() {
   $blocks = array();
   $blocks['ticket_form'] = array('info' => t('Ticket Form'));
+  $blocks['ticket_results'] = array('info' => t('Ticket Result'));
   return $blocks;
 }
 
@@ -71,9 +77,56 @@ function booking_block_view($delta = '') {
         'content' => theme('ticket_checking', $data),
       );
       break;
-
+    case 'ticket_results':
+      $data = _build_data_booking();
+      $data['ticket_results'] = NULL;
+      if (agp_getValue($data, 'booking_data.action') == 'search_ticket') {
+        $round_trip = agp_getValue($data, 'booking_data.filter.RoundTrip');
+        $data['ticket_results']['first_leg'] = _search_ticket($data['booking_data']['filter']);
+        if ('true' == $round_trip) {
+          //@todo prepare data search return leg
+          $data['ticket_results']['return_leg'] = _search_ticket($data['booking_data']['filter']);
+        }
+      }
+      dsm($data);
+      return array(
+        'subject' => t('Ticket Results'),
+        'content' => theme('ticket_results', $data),
+      );
+      break;
   }
 }
+
+///**
+// * Implements hook_entity_info().
+// */
+//function booking_entity_info() {
+//  $entities = array();
+//
+//  $entities['booking_entity'] = array(
+//    'label' => t('Booking Entity'),
+//    'base table' => 'booking',
+//    'controller class' => 'EntityAPIController',
+//    'entity class' => 'Entity',
+//    'fieldable' => TRUE,
+//    'entity keys' => array(
+//      'id' => 'id'
+//    ),
+//    'module' => 'booking',
+//    'views controller class' => 'BookingViewsController',
+//  );
+//  return $entities;
+//}
+//
+///**
+// * Implements hook_views_api().
+// */
+//function booking_views_api() {
+//  return array(
+//    'api' => 3,
+//    'path' => drupal_get_path('module', 'booking') . '/includes/views'
+//  );
+//}
 
 /**
  * Build booking data
@@ -81,8 +134,11 @@ function booking_block_view($delta = '') {
 function _build_data_booking() {
   $data = array();
   $data['booking_data'] = array();
+  $data['booking_data']['filter'] = array();
+  $data['booking_data']['action'] = 'no-action';
   if (isset($_POST['booking_action']) && !empty($_POST['booking_action'])) {
-    $data['booking_data'] = $_POST['booking'];
+    $data['booking_data']['filter'] = $_POST['bookingFilter'];
+    $data['booking_data']['action'] = $_POST['booking_action'];
   }
 
   $data['booking_data']['max_people'] = array(
@@ -92,5 +148,51 @@ function _build_data_booking() {
   );
 
   return $data;
+}
+
+/**
+ * Send request search
+ *
+ * @param $data_post
+ * @return mixed|null
+ * @throws \RemoteRestException
+ */
+function _search_ticket($data_post) {
+  $url = _booking_rest_url('oapi/airline/Flights/Find?$expand=TicketPriceDetails,Details,TicketOptions');
+  $username = variable_get('api_username', 'angiaphat247.vn');
+  $password = variable_get('api_password', 'ZVBNhfg4');
+  //return BookingHelper::rest_http_post($url, $data_post, $username, $password);
+
+  //@todo fake data
+  $js = '{"odata.metadata":"http://localhost:45865/oapi/Airline/$metadata#Flights","value":[
+    {
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T06:15:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1737,"LandingTime":"2014-06-15T08:20:00","FlightNumber":"BL 790","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    },{
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T07:30:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1738,"LandingTime":"2014-06-15T09:35:00","FlightNumber":"BL 792","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    },{
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T06:15:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1737,"LandingTime":"2014-06-15T08:20:00","FlightNumber":"BL 790","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    },{
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T07:30:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1738,"LandingTime":"2014-06-15T09:35:00","FlightNumber":"BL 792","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    },{
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T06:15:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1737,"LandingTime":"2014-06-15T08:20:00","FlightNumber":"BL 790","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    },{
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T07:30:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1738,"LandingTime":"2014-06-15T09:35:00","FlightNumber":"BL 792","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    },{
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T06:15:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1737,"LandingTime":"2014-06-15T08:20:00","FlightNumber":"BL 790","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    },{
+      "Airline":"JetStar","AirlineCode":"JetStar","DepartTime":"2014-06-15T07:30:00","Description":null,"FlightDuration":"PT2H5M","FromAirport":null,"FromAirportId":null,"FromPlace":"H\u1ed3 Ch\u00ed Minh","FromPlaceId":1,"Id":1738,"LandingTime":"2014-06-15T09:35:00","FlightNumber":"BL 792","Price":"1130000.00","Stops":0,"TicketType":"Starter","ToAirport":null,"ToAirportId":null,"ToPlace":"H\u00e0 N\u1ed9i","ToPlaceId":2,"TotalPrice":"1393000.00"
+    }]}';
+  $re = json_decode($js);
+  return isset($re->value) ? $re->value : NULL;
+}
+
+/**
+ * Get rest url
+ *
+ * @param $path
+ * @return string
+ */
+function _booking_rest_url($path) {
+  return variable_get('booking_rest_url', 'http://api.atvietnam.vn/') . $path;
 }
 

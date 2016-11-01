@@ -15,16 +15,16 @@
       <span>&nbsp;</span>
       <div class="tmRadio">
         <div class="lf">
-          <input name="booking[type]" type="radio" value="1_way"
+          <input name="bookingFilter[RoundTrip]" type="radio" value="false"
                  id="booking_type_1_way"
-                 class="icheck" <?php print (agp_getValue($booking_data, 'type') == '1_way') ? 'checked="checked"' : '' ?>>
+                 class="icheck" <?php print (agp_getValue($booking_data, 'filter.RoundTrip') == 'false') ? 'checked="checked"' : '' ?>>
           <span><?php print t('Một chiều') ?></span>
           <div class="clear"></div>
         </div>
         <div class="rf">
-          <input name="booking[type]" type="radio" value="2_way"
+          <input name="bookingFilter[RoundTrip]" type="radio" value="true"
                  id="booking_type_2_way"
-                 class="icheck" <?php print (agp_getValue($booking_data, 'type', '2_way') == '2_way') ? 'checked="checked"' : '' ?>>
+                 class="icheck" <?php print (agp_getValue($booking_data, 'filter.RoundTrip', 'true') == 'true') ? 'checked="checked"' : '' ?>>
           <span><?php print t('Khứ hồi') ?></span>
           <div class="clear"></div>
 
@@ -39,10 +39,10 @@
     <div class="controlHolder">
       <span>&nbsp;</span>
       <div class="tmInput">
-        <input name="booking[from]" placeholder="" type="text" class="tooltip"
+        <input name="bookingFilter[FromPlace]" placeholder="" type="text" class="tooltip"
                data-tooltip-content="#tooltip_content"
-               id="booking_from"
-               value="<?php print agp_getValue($booking_data, 'from') ?>"
+               id="bookingFilterFrom"
+               value="<?php print agp_getValue($booking_data, 'filter.FromPlace') ?>"
                required>
       </div>
     </div>
@@ -55,9 +55,9 @@
     <div class="controlHolder">
       <span>&nbsp;</span>
       <div class="tmInput">
-        <input name="booking[to]" placeholder="" type="text" class="tooltip"
-               data-tooltip-content="#tooltip_content" id="booking_to"
-               value="<?php print agp_getValue($booking_data, 'to') ?>" required>
+        <input name="bookingFilter[ToPlace]" placeholder="" type="text" class="tooltip"
+               data-tooltip-content="#tooltip_content" id="bookingFilterTo"
+               value="<?php print agp_getValue($booking_data, 'filter.ToPlace') ?>" required>
       </div>
     </div>
 
@@ -68,16 +68,16 @@
 
     <div class="controlHolder"><label class="tmDatepicker">
         <span><?php print t('Ngày đi'); ?></span>
-        <input type="text" name="booking[check-in]" placeholder="10/05/2014"
+        <input type="text" name="bookingFilter[DepartDate]" placeholder="10/05/2014"
                id="booking_check_in" class="hasDatepicker"
-               value="<?php print agp_getValue($booking_data, 'check-in') ?>" required>
+               value="<?php print agp_getValue($booking_data, 'filter.DepartDate') ?>" required>
       </label></div>
 
     <div class="controlHolder"><label class="tmDatepicker">
         <span><?php print t('Ngày về'); ?></span>
-        <input type="text" name="booking[check-out]" placeholder="20/05/2014"
+        <input type="text" name="bookingFilter[ReturnDate]" placeholder="20/05/2014"
                id="booking_check_out" class="hasDatepicker"
-               value="<?php print agp_getValue($booking_data, 'check-out') ?>" required>
+               value="<?php print agp_getValue($booking_data, 'filter.ReturnDate') ?>" required>
       </label></div>
     <div class="clear"></div>
   </div>
@@ -89,11 +89,11 @@
     <div class="inn1">
       <span><?php print t('Người lớn <br> trên 12T') ?></span>
       <div class="controlHolder">
-        <select name="booking[people_adult]" class="tmSelect auto"
+        <select name="bookingFilter[Adult]" class="tmSelect auto"
                 data-class="tmSelect tmSelect2">
           
           <?php $i = 1;
-          $current = agp_getValue($booking_data, 'people_adult', 1);
+          $current = agp_getValue($booking_data, 'filter.Adult', 1);
           $max = agp_getValue($booking_data, 'max_people.adult', 30) ?>
           <?php while ($i <= $max): ?>
 
@@ -106,12 +106,12 @@
     </div>
     <div class="inn1">
       <span><?php print t('Trẻ em <br> 2T - 11T') ?></span>
-      <div class="controlHolder"><select name="booking[people_child_mid]"
+      <div class="controlHolder"><select name="bookingFilter[Child]"
                                          class="tmSelect auto"
                                          data-class="tmSelect tmSelect2">
           <option></option>
           <?php $i = 1;
-          $current = agp_getValue($booking_data, 'people_child_mid', 0);
+          $current = agp_getValue($booking_data, 'filter.Child', 0);
           $max = agp_getValue($booking_data, 'max_people.child_medium', 30) ?>
           <?php while ($i <= $max): ?>
             <option <?php print 'value="' . $i . '"';
@@ -124,12 +124,12 @@
     </div>
     <div class="inn1">
       <span><?php print t('Trẻ em <br> dưới 2T') ?></span>
-      <div class="controlHolder"><select name="booking[people_child]"
+      <div class="controlHolder"><select name="bookingFilter[Infant]"
                                          class="tmSelect auto"
                                          data-class="tmSelect tmSelect2">
           <option></option>
           <?php $i = 1;
-          $current = agp_getValue($booking_data, 'people_child', 0);
+          $current = agp_getValue($booking_data, 'filter.Infant', 0);
           $max = agp_getValue($booking_data, 'max_people.child', 30) ?>
           <?php while ($i <= $max): ?>
             <option <?php print 'value="' . $i . '"';
@@ -314,12 +314,12 @@
     bookingHelper.handlerEvent();
 
     var currentInputId = false;
-    jQuery('#booking_from').click(function () {
-      jQuery('#booking_from').tooltipster('open');
+    jQuery('#bookingFilterFrom').click(function () {
+      jQuery('#bookingFilterFrom').tooltipster('open');
       currentInputId = '#' + jQuery(this).attr('id');
     });
-    jQuery('#booking_to').click(function () {
-      jQuery('#booking_to').tooltipster('open');
+    jQuery('#bookingFilterTo').click(function () {
+      jQuery('#bookingFilterTo').tooltipster('open');
       currentInputId = '#' + jQuery(this).attr('id');
     });
 
@@ -332,39 +332,5 @@
     jQuery('.province-close').on('click', function () {
       jQuery('.tooltip').tooltipster('close');
     });
-
-//    jQuery(window)
-//      .on('click',
-//        function (e) {
-//          jQuery('.tooltipster-base')
-//            .each(
-//              function () {
-//                if (!jQuery(this).is(e.target)
-//                  && jQuery(this).has(
-//                    e.target).length === 0
-//                  && jQuery('.tooltipster-base')
-//                    .has(
-//                      e.target).length === 0) {
-//                  jQuery('.tooltip').tooltipster('close');
-//                }
-//              });
-//        });
-
-//    jQuery('input[type="radio"].icheck').iCheck({
-//      checkboxClass: 'icheckbox_flat',
-//      radioClass: 'iradio_flat-blue'
-//    });
-//    jQuery('input#booking_type_1_way').on('ifChecked', function () {
-//      jQuery('#booking_to').attr('disabled', 'disabled');
-//      jQuery('#booking_check_out').attr('disabled', 'disabled');
-//    });
-//    jQuery('input#booking_type_2_way').on('ifChecked', function () {
-//      jQuery('#booking_to').removeAttr('disabled');
-//      jQuery('#booking_check_out').removeAttr('disabled');
-//    })
-//    jQuery('input#booking_type_1_way').iCheck('check', function(){
-//      jQuery('#booking_to').attr('disabled', 'disabled');
-//      jQuery('#booking_check_out').attr('disabled', 'disabled');
-//    });
   })
 </script>

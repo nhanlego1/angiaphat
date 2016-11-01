@@ -657,6 +657,40 @@ button.ui-state-default:hover {
 .tooltipster-base {
   pointer-events: all !important;
 }
+
+table {
+  width: 100%;
+}
+table tr {
+  border-style: solid;
+  border-color: #ddd;
+  background: #f3f4ee;
+  transition: all, 0.15s;
+}
+table tr:nth-child(2n+1) {
+  background: #fff;
+}
+
+table tr:hover{
+  background: #FFFFBF;
+}
+
+table td, table th {
+  vertical-align: middle;
+  padding: 8px 10px;
+  border: 0;
+  color: #000;
+}
+
+table th {
+  font-size: larger;
+  font-weight: bold;
+}
+
+table thead tr {
+  background-color: #FFFFBF!important;
+}
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1024px) {
     .tooltipster-content {

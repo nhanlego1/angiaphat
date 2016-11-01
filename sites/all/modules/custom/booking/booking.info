@@ -11,3 +11,5 @@ stylesheets[all][] = assets/plugins/icheck/skins/flat/_all.css
 scripts[] = assets/plugins/tooltipster/tooltipster.bundle.min.js
 scripts[] = assets/plugins/icheck/icheck.min.js
 scripts[] = assets/js/booking.js
+
+files[] = includes/booking.helper.inc
