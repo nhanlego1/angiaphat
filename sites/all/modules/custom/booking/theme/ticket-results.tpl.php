@@ -15,8 +15,8 @@
             <p> No result </p>
           <?php else: ?>
             <div class="heading">
-              <h4><?php print ('first_leg' == $key) ? t('Chiều đi') : 'Chiều về'?>: <?php print ('first_leg' == $key) ? @agp_getValue($booking_data, 'filter.FromPlace'): @agp_getValue($booking_data, 'filter.ToPlace')?> <img alt="airplane-icon" src="/./sites/all/modules/custom/booking/assets/images/airplane-icon.png">
-                <?php print ('first_leg' == $key)?@agp_getValue($booking_data, 'filter.ToPlace'):@agp_getValue($booking_data, 'filter.FromPlace')?> - Ngày <?php print ('first_leg' == $key)?@agp_getValue($booking_data, 'filter.DepartDate'):@agp_getValue($booking_data, 'filter.ReturnDate')?></h4>
+              <h4><?php print ('first_leg' == $key) ? t('Chiều đi') : 'Chiều về'?>: <?php print ('first_leg' == $key) ? @agp_getValue($booking_data, 'filter.FromPlaceName'): @agp_getValue($booking_data, 'filter.ToPlaceName')?> <img alt="airplane-icon" src="/./sites/all/modules/custom/booking/assets/images/airplane-icon.png">
+                <?php print ('first_leg' == $key)?@agp_getValue($booking_data, 'filter.ToPlaceName'):@agp_getValue($booking_data, 'filter.FromPlaceName')?> - Ngày <?php print ('first_leg' == $key)?@agp_getValue($booking_data, 'filter.DepartDate'):@agp_getValue($booking_data, 'filter.ReturnDate')?></h4>
             </div>
             <div>
               <table class="tbl-ticket-result">
@@ -40,7 +40,7 @@
                     <td
                       class="depart-time"><?php print BookingHelper::getTime(@agp_getValue($ticket, 'DepartTime'),agp_getValue($ticket, 'LandingTime')) ?></td>
                     <td
-                      class="price"><span><?php print BookingHelper::getPrice(@agp_getValue($ticket, 'Price'), 'N\A') ?></span></td>
+                      class="price"><span><?php print BookingHelper::getPrice(@agp_getValue($ticket, 'TotalPrice'), 'N\A') ?></span></td>
                   </tr>
                 <?php endforeach; ?>
                 </tbody>

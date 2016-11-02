@@ -39,11 +39,13 @@
     <div class="controlHolder">
       <span>&nbsp;</span>
       <div class="tmInput">
-        <input name="bookingFilter[FromPlace]" placeholder="" type="text" class="tooltip"
+        <input name="bookingFilter[FromPlaceName]" placeholder="" type="text" class="tooltip"
                data-tooltip-content="#tooltip_content"
                id="bookingFilterFrom"
-               value="<?php print agp_getValue($booking_data, 'filter.FromPlace') ?>"
+               value="<?php print agp_getValue($booking_data, 'filter.FromPlaceName') ?>"
                required>
+        <input name="bookingFilter[FromPlace]" type="hidden"
+               id="bookingFilterFromCode" value="<?php print agp_getValue($booking_data, 'filter.FromPlace') ?>">
       </div>
     </div>
   </div>
@@ -55,9 +57,11 @@
     <div class="controlHolder">
       <span>&nbsp;</span>
       <div class="tmInput">
-        <input name="bookingFilter[ToPlace]" placeholder="" type="text" class="tooltip"
+        <input name="bookingFilter[ToPlaceName]" placeholder="" type="text" class="tooltip"
                data-tooltip-content="#tooltip_content" id="bookingFilterTo"
-               value="<?php print agp_getValue($booking_data, 'filter.ToPlace') ?>" required>
+               value="<?php print agp_getValue($booking_data, 'filter.ToPlaceName') ?>" required>
+        <input name="bookingFilter[ToPlace]" type="hidden"
+               id="bookingFilterToCode" value="<?php print agp_getValue($booking_data, 'filter.ToPlace') ?>">
       </div>
     </div>
 
@@ -91,7 +95,7 @@
       <div class="controlHolder">
         <select name="bookingFilter[Adult]" class="tmSelect auto"
                 data-class="tmSelect tmSelect2">
-          
+
           <?php $i = 1;
           $current = agp_getValue($booking_data, 'filter.Adult', 1);
           $max = agp_getValue($booking_data, 'max_people.adult', 30) ?>
@@ -323,8 +327,11 @@
     });
     jQuery('.province ul.col li').on('click', function () {
       var text = jQuery(this).find("a").text();
-      console.log(text);
+      var code = jQuery(this).find("a").attr('data-city-code');
+      console.log(code);
+
       jQuery(currentInputId).val(text);
+      jQuery(currentInputId+'Code').val(code);
       jQuery('.tooltip').tooltipster('close');
     });
     jQuery('.province-close').on('click', function () {

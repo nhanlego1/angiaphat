@@ -21,7 +21,14 @@ function booking_setting_form($form, &$form_state) {
     '#required' => TRUE,
     '#description' => 'URL API REST is deployed (including trailing slash)',
     '#default_value' => variable_get('booking_rest_url', 'http://api.atvietnam.vn'),
-    '#weight' => 1,
+    '#group' => 'setting_form'
+  );
+  $form ['common']['list_airline_support'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Danh sách hãng airline được hỗ trợ'),
+    '#required' => TRUE,
+    '#description' => 'Cách nhau bởi dấu phẩy (,)',
+    '#default_value' => variable_get('list_airline_support', 'VietJetAir,JetStar,VietnamAirlines'),
     '#group' => 'setting_form'
   );
   $form ['common']['api_username'] = array(
@@ -29,7 +36,6 @@ function booking_setting_form($form, &$form_state) {
     '#title' => t('Api Username'),
     '#required' => TRUE,
     '#default_value' => variable_get('api_username', ''),
-    '#weight' => 1,
     '#group' => 'setting_form'
   );
 
@@ -38,10 +44,8 @@ function booking_setting_form($form, &$form_state) {
     '#title' => t('Api Password'),
     '#required' => TRUE,
     '#default_value' => variable_get('api_password', ''),
-    '#weight' => 1,
     '#group' => 'setting_form'
   );
-
 
   $form ['common']['max_people_adult'] = array(
     '#type' => 'textfield',
@@ -49,7 +53,6 @@ function booking_setting_form($form, &$form_state) {
     '#required' => TRUE,
     '#default_value' => variable_get('max_people_adult', 10),
     '#element_validate' => array('element_validate_integer_positive'),
-    '#weight' => 1,
     '#group' => 'setting_form'
   );
   $form ['common']['max_people_child_medium'] = array(
@@ -58,7 +61,6 @@ function booking_setting_form($form, &$form_state) {
     '#required' => TRUE,
     '#default_value' => variable_get('max_people_child_medium', 10),
     '#element_validate' => array('element_validate_integer_positive'),
-    '#weight' => 2,
     '#group' => 'setting_form'
   );
   $form ['common']['max_people_child'] = array(
@@ -67,7 +69,6 @@ function booking_setting_form($form, &$form_state) {
     '#required' => TRUE,
     '#default_value' => variable_get('max_people_child', 10),
     '#element_validate' => array('element_validate_integer_positive'),
-    '#weight' => 3,
     '#group' => 'setting_form'
   );
   $form = system_settings_form($form);
