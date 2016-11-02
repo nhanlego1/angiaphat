@@ -685,10 +685,12 @@ table td, table th {
 table th {
   font-size: larger;
   font-weight: bold;
+  color: white;
+  padding: 15px;
 }
 
 table thead tr {
-  background-color: #577f9f!important;
+  background-color: rgba(254, 191, 43, 0.91)!important
 }
 .logo-airline {
   width: 50px;
@@ -702,6 +704,12 @@ table thead tr {
   background: url("../images/jetstar.png") no-repeat;
 }
 
+.vietnameairlines {
+  background: url("../images/vietnamairlines.svg") no-repeat;
+}
+table .tbl-ticket-result{
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
 table.tbl-ticket-result .price {
     color: #f55753;
     font-weight: bold;
