@@ -39,25 +39,13 @@ class BookingHelper {
   }
 
   public static function getImageByAirlineCode($airline_code) {
-    $targets = array('vietjetair', 'jetstar');
+    $airline_code = strtolower($airline_code);
     $path = drupal_get_path('module', 'booking') . '/assets/images/';
-    foreach ($targets as $target) {
-      if (preg_match("/$target/", strtolower($airline_code))) {
-        return '<img src="' . url($path . $target . '.png') . '">';
-      }
-    }
-    return '';
+    return '<img src="' . url($path . $airline_code . '.png') . '">';
   }
 
   public static function getClassByAirlineCode($airline_code) {
-    $targets = array('vietjetair', 'jetstar');
-    $path = drupal_get_path('module', 'booking') . '/assets/images/';
-    foreach ($targets as $target) {
-      if (preg_match("/$target/", strtolower($airline_code))) {
-        return $target;
-      }
-    }
-    return '';
+    return strtolower($airline_code);
   }
 
   public static function getPrice($price, $default_return_value = '') {

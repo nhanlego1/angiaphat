@@ -705,9 +705,9 @@ table thead tr {
 }
 
 .vietnamairlines {
-  background: url("../images/vietnamairlines.svg") no-repeat;
+  background: url("../images/vietnamairlines.png") no-repeat;
 }
-table .tbl-ticket-result{
+table.tbl-ticket-result{
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
 table.tbl-ticket-result .price {
