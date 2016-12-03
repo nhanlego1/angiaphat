@@ -19,6 +19,13 @@ Drupal.behaviors.CustomAngiaphat = {
       });
     });
 
+    $(".detail-wrapper .detail a").each(function(){
+      $(this).click(function(event){
+        event.preventDefault();
+        $(this).parent().next().toggle();
+      });
+    });
+
   }
 };
 

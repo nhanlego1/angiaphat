@@ -110,8 +110,13 @@
     <div class="container">
         <div class="row">
             <div class="grid_12">
+                <?php if ($page['booking']): ?>
+                    <div id="booking" class="grid_5">
+                        <?php print render($page['booking']); ?>
+                    </div>
+                <?php endif; ?>
                 <?php if ($page['highlighted']): ?>
-                    <div id="highlighted">
+                    <div id="highlighted" class="grid_5">
                         <?php print render($page['highlighted']); ?>
                     </div>
                 <?php endif; ?>
@@ -156,10 +161,9 @@
                     <div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
                 <?php print render($page['help']); ?>
                 <?php if ($action_links): ?>
-                    <ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-<!--                --><?php //if (!drupal_is_front_page() || 1 != theme_get_setting('hide_content_in_front')): ?>
-                    <?php print render($page['content']); ?>
-<!--                --><?php //endif; ?>
+                    <ul class="action-links"><?php print render($action_links); ?></ul>
+                <?php endif; ?>
+                <?php print render($page['content']); ?>
                 <?php print $feed_icons; ?>
 
             </div>

@@ -30,6 +30,7 @@ scripts[] = js/custom.js
 scripts[] = js/jquery.datetimepicker.full.min.js
 ;add region for template
 regions[highlighted] = Highlighted
+regions[booking] = Booking
 regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[content] = Content

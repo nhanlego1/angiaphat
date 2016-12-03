@@ -9,10 +9,8 @@
 
 <form id="bookingForm" action="/ticket/checking" method="post">
   <div class="sect1">
-    <div class="count"><span class="col1">01.</span> <?php print t('Loại vé') ?>
-    </div>
     <div class="controlHolder">
-      <span>&nbsp;</span>
+
       <div class="tmRadio">
         <div class="lf">
           <input name="bookingFilter[RoundTrip]" type="radio" value="false"
@@ -33,13 +31,10 @@
     </div>
   </div>
   <div class="sect2">
-    <div class="count">
-      <span class="col1">02.</span> <?php print t('Chiều đi') ?>
-    </div>
     <div class="controlHolder">
-      <span>&nbsp;</span>
+
       <div class="tmInput">
-        <input name="bookingFilter[FromPlaceName]" placeholder="" type="text" class="tooltip"
+        <input name="bookingFilter[FromPlaceName]" placeholder="Chiều đi" type="text" class="tooltip"
                data-tooltip-content="#tooltip_content"
                id="bookingFilterFrom"
                value="<?php print agp_getValue($booking_data, 'filter.FromPlaceName') ?>"
@@ -48,38 +43,27 @@
                id="bookingFilterFromCode" value="<?php print agp_getValue($booking_data, 'filter.FromPlace') ?>">
       </div>
     </div>
-  </div>
-  <div class="sect2">
+      <div class="controlHolder">
 
-    <div class="count">
-      <span class="col1">03.</span> <?php print t('Chiều về') ?>
-    </div>
-    <div class="controlHolder">
-      <span>&nbsp;</span>
-      <div class="tmInput">
-        <input name="bookingFilter[ToPlaceName]" placeholder="" type="text" class="tooltip"
-               data-tooltip-content="#tooltip_content" id="bookingFilterTo"
-               value="<?php print agp_getValue($booking_data, 'filter.ToPlaceName') ?>" required>
-        <input name="bookingFilter[ToPlace]" type="hidden"
-               id="bookingFilterToCode" value="<?php print agp_getValue($booking_data, 'filter.ToPlace') ?>">
+          <div class="tmInput">
+              <input name="bookingFilter[ToPlaceName]" placeholder="Chiều đến" type="text" class="tooltip"
+                     data-tooltip-content="#tooltip_content" id="bookingFilterTo"
+                     value="<?php print agp_getValue($booking_data, 'filter.ToPlaceName') ?>" required>
+              <input name="bookingFilter[ToPlace]" type="hidden"
+                     id="bookingFilterToCode" value="<?php print agp_getValue($booking_data, 'filter.ToPlace') ?>">
+          </div>
       </div>
-    </div>
-
   </div>
-  <div class="sect4">
-    <div class="count"><span
-        class="col1">04.</span> <?php print t('Thời gian'); ?></div>
 
+  <div class="sect4">
     <div class="controlHolder"><label class="tmDatepicker">
-        <span><?php print t('Ngày đi'); ?></span>
-        <input type="text" name="bookingFilter[DepartDate]" placeholder="10/05/2014"
+        <input type="text" name="bookingFilter[DepartDate]" placeholder="Ngày đi"
                id="booking_check_in" class="hasDatepicker"
                value="<?php print agp_getValue($booking_data, 'filter.DepartDate') ?>" required>
       </label></div>
 
     <div class="controlHolder"><label class="tmDatepicker">
-        <span><?php print t('Ngày về'); ?></span>
-        <input type="text" name="bookingFilter[ReturnDate]" placeholder="20/05/2014"
+        <input type="text" name="bookingFilter[ReturnDate]" placeholder="Ngày về"
                id="booking_check_out" class="hasDatepicker"
                value="<?php print agp_getValue($booking_data, 'filter.ReturnDate') ?>" required>
       </label></div>
@@ -87,11 +71,8 @@
   </div>
 
   <div class="sect3">
-    <div class="count">
-      <span class="col1">05.</span> <?php print t('Số lượng'); ?>
-    </div>
     <div class="inn1">
-      <span><?php print t('Người lớn <br> trên 12T') ?></span>
+
       <div class="controlHolder">
         <select name="bookingFilter[Adult]" class="tmSelect auto"
                 data-class="tmSelect tmSelect2">
@@ -103,42 +84,42 @@
 
             <option <?php print 'value="' . $i . '"';
             print (($i == $current) ? 'selected' : ''); ?>><?php print $i;
-              $i++; ?></option>
+              $i++; ?> Người lớn</option>
           <?php endwhile; ?>
         </select>
       </div>
     </div>
     <div class="inn1">
-      <span><?php print t('Trẻ em <br> 2T - 11T') ?></span>
+<!--      <span>--><?php //print t('Trẻ em 2T - 11T') ?><!--</span>-->
       <div class="controlHolder"><select name="bookingFilter[Child]"
                                          class="tmSelect auto"
                                          data-class="tmSelect tmSelect2">
-          <option></option>
+          <option>Trẻ em</option>
           <?php $i = 1;
           $current = agp_getValue($booking_data, 'filter.Child', 0);
           $max = agp_getValue($booking_data, 'max_people.child_medium', 30) ?>
           <?php while ($i <= $max): ?>
             <option <?php print 'value="' . $i . '"';
             print (($i == $current) ? 'selected' : ''); ?>><?php print $i;
-              $i++; ?></option>
+              $i++; ?> Trẻ em</option>
           <?php endwhile; ?>
         </select>
       </div>
 
     </div>
     <div class="inn1">
-      <span><?php print t('Trẻ em <br> dưới 2T') ?></span>
+<!--      <span>--><?php //print t('Trẻ em dưới 2T') ?><!--</span>-->
       <div class="controlHolder"><select name="bookingFilter[Infant]"
                                          class="tmSelect auto"
                                          data-class="tmSelect tmSelect2">
-          <option></option>
+          <option>Em bé</option>
           <?php $i = 1;
           $current = agp_getValue($booking_data, 'filter.Infant', 0);
           $max = agp_getValue($booking_data, 'max_people.child', 30) ?>
           <?php while ($i <= $max): ?>
             <option <?php print 'value="' . $i . '"';
             print (($i == $current) ? 'selected' : ''); ?>><?php print $i;
-              $i++; ?></option>
+              $i++; ?> Em bé</option>
           <?php endwhile; ?>
         </select>
       </div>

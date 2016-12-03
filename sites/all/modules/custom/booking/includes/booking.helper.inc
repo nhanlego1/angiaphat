@@ -55,11 +55,14 @@ class BookingHelper {
     return number_format($price);
   }
 
-  public static function getTime($datetime1, $datetime2) {
+  public static function getTime($datetime1, $datetime2=null) {
     $out = '';
     $out .= date("H:i:s", strtotime($datetime1));
-    $out .= ' - ';
-    $out .= date("H:i:s", strtotime($datetime2));
+    if($datetime2){
+        $out .= ' - ';
+        $out .= date("H:i:s", strtotime($datetime2));
+    }
+
     return $out;
   }
 

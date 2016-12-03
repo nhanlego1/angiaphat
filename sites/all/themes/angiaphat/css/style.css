@@ -69,8 +69,8 @@ h2 {
     font-size: 36px;
     line-height: 30px;
     text-align: center;
-    padding-top: 87px;
-    margin-bottom: 66px;
+    padding-top: 35px;
+    margin-bottom: 10px;
 }
 
 h2 span {
@@ -332,7 +332,7 @@ header h1 a img {
 }
 
 .booking_block {
-    padding-top: 117px;
+    padding-top: 20px;
     background: url(../images/bg.jpg) center 0 no-repeat;
 
 }
@@ -353,12 +353,8 @@ header h1 a img {
     
     color: #fff;
     display: inline-block;
-    padding: 9px 30px 8px 18px;
     text-transform: uppercase;
     font: bold 36px/36px 'Roboto Condensed', sans-serif;
-    margin-left: 50%;
-    margin-top: -8%;
-    width: 48%;
 }
 .booking_block .title img{
 background: url(../images/fill1.png) 0 0 repeat;
@@ -933,7 +929,7 @@ footer img {
 
 h4 {
     padding-top: 49px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     margin-bottom: 22px;
 }
@@ -1030,7 +1026,6 @@ h4 {
 
     .sect2 .controlHolder + .controlHolder {
         margin-left: 0;
-        clear: both;
     }
 
     #owl .item a {
@@ -2862,6 +2857,9 @@ input.form-text:focus, input.form-file:focus, textarea.form-textarea:focus, sele
     margin: 0px 0px 4px;
     line-height: 1.4;
     width: initial;
+}
+#block-block-3 h2{
+    margin-bottom: 60px;
 }
 
 /* Fix webkit select on OS X see issue #2351221 */

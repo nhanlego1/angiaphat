@@ -93,7 +93,7 @@ function getBackground() {
     $background = 'booking_block';
   }
   if ($_GET['q'] == 'ticket/checking') {
-    $background = 'booking_block_ticket';
+    $background = 'booking_block';
   }
   return $background;
 }

@@ -51,8 +51,26 @@ function booking_theme() {
  * Implement booking_ticket_checking
  */
 function booking_ticket_checking() {
-  $data = _build_data_booking();
-  return theme('ticket_checking', $data);
+    $data = _build_data_booking();
+    $data['ticket_results'] = NULL;
+    if (agp_getValue($data, 'booking_data.action') == 'search_ticket') {
+
+        $data_filter = BookingHelper::build_data_filter($data['booking_data']['filter']);
+        $round_trip = agp_getValue($data_filter, 'RoundTrip', FALSE);
+        $ticket_results = _search_ticket($data_filter);
+
+        if (!empty($ticket_results)) {
+            if (TRUE == $round_trip) {
+                $num = floor(count($ticket_results) / 2);
+                $data['ticket_results']['first_leg'] = BookingHelper::array_chop($ticket_results, $num);
+                $data['ticket_results']['return_leg'] = $ticket_results;
+            }
+            else {
+                $data['ticket_results']['first_leg'] = $ticket_results;
+            }
+        }
+    }
+  return theme('ticket_results', $data);
 }
 
 /**
@@ -61,7 +79,7 @@ function booking_ticket_checking() {
 function booking_block_info() {
   $blocks = array();
   $blocks['ticket_form'] = array('info' => t('Ticket Form'));
-  $blocks['ticket_results'] = array('info' => t('Ticket Result'));
+  $blocks['ticket_results'] = array('info' => t('Kết quả'));
   return $blocks;
 }
 
@@ -98,7 +116,7 @@ function booking_block_view($delta = '') {
         }
       }
       return array(
-        'subject' => t('Ticket Results'),
+        'subject' => t('Kết quả'),
         'content' => theme('ticket_results', $data),
       );
       break;
@@ -120,9 +138,9 @@ function _build_data_booking() {
   }
 
   $data['booking_data']['max_people'] = array(
-    'adult' => variable_get('max_people_adult', 10),
-    'child_medium' => variable_get('max_people_child_medium', 10),
-    'child' => variable_get('max_people_child', 10),
+    'adult' => variable_get('max_people_adult', 30),
+    'child_medium' => variable_get('max_people_child_medium', 30),
+    'child' => variable_get('max_people_child', 30),
   );
 
   return $data;
@@ -136,15 +154,28 @@ function _build_data_booking() {
  * @throws \RemoteRestException
  */
 function _search_ticket($data_post) {
-  $url = _booking_rest_url('oapi/airline/Flights/Find');
+  $url = _booking_rest_url('oapi/airline/Flights/Find?$expand=TicketPriceDetails,Details,TicketOptions');
   $username = variable_get('api_username', 'angiaphat247.vn');
   $password = variable_get('api_password', 'ZVBNhfg4');
   $response = BookingHelper::rest_http_post($url, $data_post, $username, $password);
   if (empty($response) || !property_exists($response, 'value')) {
     return NULL;
   }
-
   return $response->value;
+
+}
+
+/**
+ * sort data follow price
+ */
+function _sort_price($ticket){
+    $price = array();
+    foreach ($ticket as $key => $row)
+    {
+        $price[$key] = $row->Price;
+    }
+    array_multisort($price, SORT_ASC, $ticket);
+    return $ticket;
 }
 
 /**
@@ -157,3 +188,9 @@ function _booking_rest_url($path) {
   return variable_get('booking_rest_url', 'http://api.atvietnam.vn/') . $path;
 }
 
+function getPrice($price, $default_return_value = '') {
+    if (!is_numeric($price)) {
+        return $default_return_value;
+    }
+    return number_format($price);
+}
