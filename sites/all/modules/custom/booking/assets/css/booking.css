@@ -125,7 +125,13 @@ button.subm:after {
 .sect2 span {
     position: relative;
     top: -3px;
+    width: 100%!important;
 }
+.toplace {
+    width: 100%;
+    margin-left: -3px;
+}
+
 
 .sect4 .controlHolder {
     float: left;
@@ -732,15 +738,49 @@ table thead tr {
 }
 
 .vietjetair {
-    background: url("../images/vietjetair.png") no-repeat center;
+    background: url("../images/vietjetair.png") no-repeat center!important;
 }
 
-.jetstar {
-    background: url("../images/jetstar.png") no-repeat center;
+.jetstar, .jetstarasiaairways {
+    background: url("../images/jetstar.png") no-repeat center!important;
 }
 
 .vietnamairlines {
-    background: url("../images/vietnamairlines.png") no-repeat center;
+    background: url("../images/vietnamairlines.png") no-repeat center!important;
+}
+.malindoairwayssdnbhd{
+    background: url("../images/smMH.gif") no-repeat center!important;
+}
+
+.malindoairwayssdnbhd{
+    background: url("../images/smMH.gif") no-repeat center!important;
+}
+.singaporeairlines{
+    background: url("../images/smSQ.gif") no-repeat center!important;
+}
+.thaiairwaysintlltd{
+    background: url("../images/smTG.gif") no-repeat center!important;
+}
+.pacificairlines{
+    background: url("../images/sm3K.gif") no-repeat center!important;
+}
+.evaairways{
+    background: url("../images/smBR.gif") no-repeat center!important;
+}
+.malaysiaairlines{
+    background: url("../images/smMH.gif") no-repeat center!important;
+}
+.thailionair{
+    background: url("../images/smOD.gif") no-repeat center!important;
+}
+.garudaindonesia{
+    background: url("../images/smGa.gif") no-repeat center!important;
+}
+.chinasouthernairlines{
+    background: url("../images/smMU.gif") no-repeat center!important;
+}
+.silkair{
+    background: url("../images/smSA.png") no-repeat center!important;
 }
 
 table.tbl-ticket-result {
@@ -822,7 +862,9 @@ li.detail-wrapper:first-child {
     float: left;
     padding-top: 10px;
     padding-left: 10px;
+    background: url(../images/outbound.png) no-repeat center;
 }
+
 
 .flight-number {
     width: 18%;
@@ -1013,11 +1055,53 @@ li.total-amount {
     display: none !important;
 }
 
+.ticket-resuls-wrapper h3{
+    width: 100%;
+    text-align: center;
+}
+.loading-message-depart, .loading-message-return{
+    text-align: center;
+    display: none;
+}
+.waiting-info{
+    font-size: 16px;
+    font-weight: bold;
+}
+.return-info{
+    margin-top: 20px;
+}
+.depart-info{
+    margin-top: 20px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 20px;
+}
+.info-fly{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sect3:nth-of-type(1){
+    margin-top: 10px;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 36px!important;
+    padding-top: 7px;
+}
+.select2-selection__arrow{
+    display: none;
+}
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1024px) {
     .tooltipster-content {
         /*max-height:400px;*/
         /*width: 1000px;*/
+    }
+    .toplace {
+        width: 100%;
+        margin-left: 18px!important;
     }
     .sect1 {
         padding-top: 10px !important;
@@ -1055,16 +1139,12 @@ li.total-amount {
     }
 
     .sect2 .controlHolder {
-        width: 100% !important;
+        width: 48% !important;
         margin-left: -6px !important;
         padding-left: 0!important;
 
     }
 
-    .sect2 .controlHolder:last-child {
-        width: 100% !important;
-
-    }
     .sect3 {
         float: none;
         width: 100%;
@@ -1098,6 +1178,9 @@ li.total-amount {
 
     button.subm {
         left: 28%;
+    }
+    .sect3:nth-of-type(1){
+        margin-top: -10px!important;
     }
 }
 
@@ -1331,6 +1414,22 @@ li.total-amount {
 
     .tmSelect, .tmSelect2 {
         font: 300 13px/22px 'Roboto Condensed', sans-serif;
+    }
+
+    .sect3:nth-of-type(1){
+        margin-top: -10px!important;
+    }
+
+    .select2-container--open .select2-dropdown--below {
+        border-top: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        width: 170px!important;
+    }
+
+    .toplace {
+        width: 100%;
+        margin-left: 18px!important;
     }
 
 }

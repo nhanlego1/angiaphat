@@ -72,7 +72,7 @@ class BookingHelper {
     return $ret;
   }
 
-  public static function build_data_filter($data_post) {
+  public static function build_data_filter($data_post, $source) {
     $filters = array(
       "RoundTrip",
       "FromPlace",
@@ -88,11 +88,11 @@ class BookingHelper {
 
     $result = array();
 
-    $result['Sources'] = variable_get('list_airline_support', 'VietJetAir,JetStar,VietnamAirlines');
+    $result['Sources'] = $source;
     foreach ($filters as $filter) {
       switch ($filter) {
         case 'RoundTrip':
-          $result[$filter] = isset($data_post[$filter]) ? filter_var($data_post[$filter], FILTER_VALIDATE_BOOLEAN) : FALSE;
+          $result[$filter] = FALSE;
           break;
         case 'FromPlace':
         case 'ToPlace':

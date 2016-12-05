@@ -63,6 +63,7 @@
 
 ?>
 <table>
+    nhan
 <?php
 	foreach($data->value as $val)
     { 

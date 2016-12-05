@@ -111,7 +111,7 @@
         <div class="row">
             <div class="grid_12">
                 <?php if ($page['booking']): ?>
-                    <div id="booking" class="grid_5">
+                    <div id="booking" class="grid_6">
                         <?php print render($page['booking']); ?>
                     </div>
                 <?php endif; ?>
