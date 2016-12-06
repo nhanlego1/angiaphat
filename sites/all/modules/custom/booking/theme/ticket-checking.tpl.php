@@ -426,7 +426,7 @@
                                                data-class="tmSelect tmSelect2">
                     <option>Em bé</option>
                     <?php $i = 1;
-                    $current = isset($_POST['Infant']) ? $_POST['Infant']: ;
+                    $current = isset($_POST['Infant']) ? $_POST['Infant']: 0;
                     $max = agp_getValue($booking_data, 'max_people.child', 30) ?>
                     <?php while ($i <= $max): ?>
                         <option <?php print 'value="' . $i . '"';
