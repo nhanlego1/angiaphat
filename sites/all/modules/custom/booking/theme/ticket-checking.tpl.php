@@ -37,7 +37,7 @@
                 <div class="rf">
                     <input name="RoundTrip" type="radio"  value="true"
                            id="booking_type_2_way"
-                           class="icheck" <?php print (isset($_POST['RoundTrip']) && $_POST['RoundTrip'] == 'true') ? 'checked="checked"' : '' ?>>
+                           class="icheck" <?php print (isset($_POST['RoundTrip']) && $_POST['RoundTrip'] == 'true') ? 'checked="checked"' : 'checked="checked"' ?>>
                     <span><?php print t('Khứ hồi') ?></span>
                     <div class="clear"></div>
 

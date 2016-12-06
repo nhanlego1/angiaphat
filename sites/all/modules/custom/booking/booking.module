@@ -85,7 +85,9 @@ function booking_ticket_checking_ajax()
     $ticket_results = array();
 
     if($data['booking_data']['filter']['ticketType']==0){
-        $sources = array('VietJetAir', 'JetStar', 'VietnamAirlines');
+       // $sources = array('VietJetAir', 'JetStar', 'VietnamAirlines');
+        $sources = array('VietJetAir','VietnamAirlines');
+      //  $sources = array('JetStar');
 
     }else{
         $sources = array('Abacus');
