@@ -37,6 +37,12 @@ function booking_menu()
         'file' => 'includes/booking.admin.inc',
         'type' => MENU_NORMAL_ITEM
     );
+    $items['admin/dashboard'] = array(
+        'title' => 'Admin Dashboard ',
+        'description' => 'Control config for artline.',
+        'page callback' => 'booking_admin_dashboard',
+        'access arguments' => array('administer angiaphat'),
+    );
     return $items;
 }
 
@@ -60,6 +66,11 @@ function booking_theme()
         'render element' => 'element',
         'path' => drupal_get_path('module', 'booking') . '/theme',
         'template' => 'ticket-checking-result',
+    );
+    $items['admin_dashboard'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'booking') . '/theme',
+        'template' => 'admin-dashboard',
     );
     return $items;
 }
@@ -247,4 +258,23 @@ function _get_code($code)
     $result = $query->execute()->fetchObject();
     return $result->name;
 
+}
+/**
+ * Implements hook_permission().
+ */
+function booking_permission()
+{
+    return array(
+        'administer angiaphat' => array(
+            'title' => t('Administer angiaphat'),
+            'restrict access' => TRUE,
+        ),
+    );
+}
+/**
+ * admin dashboard
+ */
+function booking_admin_dashboard(){
+    drupal_add_css(drupal_get_path('module', 'booking') . '/assets/admin_panel/admin-panel.css');
+    return theme('admin_dashboard');
 }
