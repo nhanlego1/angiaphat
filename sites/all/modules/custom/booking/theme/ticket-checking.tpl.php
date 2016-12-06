@@ -408,7 +408,7 @@
                                                data-class="tmSelect tmSelect2">
                     <option>Trẻ em</option>
                     <?php $i = 1;
-                    $current = isset($_POST['Child']) ? $_POST['Child']: 1;
+                    $current = isset($_POST['Child']) ? $_POST['Child']: 0;
                     $max = agp_getValue($booking_data, 'max_people.child_medium', 30) ?>
                     <?php while ($i <= $max): ?>
                         <option <?php print 'value="' . $i . '"';
@@ -426,7 +426,7 @@
                                                data-class="tmSelect tmSelect2">
                     <option>Em bé</option>
                     <?php $i = 1;
-                    $current = isset($_POST['Infant']) ? $_POST['Infant']: 1;
+                    $current = isset($_POST['Infant']) ? $_POST['Infant']: ;
                     $max = agp_getValue($booking_data, 'max_people.child', 30) ?>
                     <?php while ($i <= $max): ?>
                         <option <?php print 'value="' . $i . '"';
