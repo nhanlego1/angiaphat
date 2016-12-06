@@ -107,10 +107,10 @@
                                         <?php endforeach; ?>
                                     </li>
                                     <li class="tax">
-                                        <span>Thuế và phí:</span> <?php print getPrice($fee, 'N\A') ?>
+                                        <span>Thuế và phí:</span> <?php print getPrice($fee, 'N\A', 'tax') ?>
                                     </li>
                                     <li class="total-amount">
-                                        <span> Tổng cộng: </span><?php print getPrice($ticket->TotalPrice, 'N\A') ?>
+                                        <span> Tổng cộng: </span><?php print getPrice($ticket->TotalPrice, 'N\A','tax') ?>
                                     </li>
 
                                     <div class="clearfix"></div>

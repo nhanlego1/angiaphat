@@ -240,9 +240,11 @@ function _booking_rest_url($path)
     return variable_get('booking_rest_url', 'http://api.atvietnam.vn/') . $path;
 }
 
-function getPrice($price, $default_return_value = '')
+function getPrice($price, $default_return_value = '', $type=null)
 {
-    $price = $price + 50000;
+    if($type=='tax'){
+      $price = $price + 50000;
+    }
     if (!is_numeric($price)) {
         return $default_return_value;
     }

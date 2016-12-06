@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="618d76f1-e636-47ae-a128-7792b4ebb2d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php" />
     </list>
     <ignored path="angiaphat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticket-results.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ticket-results.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="452">
-              <caret line="112" column="81" selection-start-line="112" selection-start-column="81" selection-end-line="112" selection-end-column="81" />
+              <caret line="112" column="117" selection-start-line="112" selection-start-column="117" selection-end-line="112" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -49,8 +50,8 @@
       <file leaf-file-name="booking.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="244" column="28" selection-start-line="244" selection-start-column="28" selection-end-line="244" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="246" column="5" selection-start-line="246" selection-start-column="5" selection-end-line="246" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -94,16 +95,6 @@
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/pathauto/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -184,15 +175,15 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking-result.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/angiaphat.info" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/js/custom.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/template.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/admin-dashboard.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/templates/node--product.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/templates/views-view-fields--san-pham.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php" />
       </list>
     </option>
   </component>
@@ -766,12 +757,12 @@
       <workItem from="1480950226691" duration="30000" />
       <workItem from="1480950579817" duration="50000" />
       <workItem from="1480951143425" duration="4509000" />
-      <workItem from="1481009479516" duration="5265000" />
+      <workItem from="1481009479516" duration="5570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160276000" />
+    <option name="totallyTimeSpent" value="160581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -1075,7 +1066,7 @@
         <state relative-caret-position="90">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="e#6#85#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1127,22 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="112" column="81" selection-start-line="112" selection-start-column="81" selection-end-line="112" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="244" column="28" selection-start-line="244" selection-start-column="28" selection-end-line="244" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -1191,6 +1166,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/pathauto/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/templates/views-view-fields--san-pham.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1201,10 +1184,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/pathauto/README.txt">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="246" column="5" selection-start-line="246" selection-start-column="5" selection-end-line="246" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="112" column="117" selection-start-line="112" selection-start-column="117" selection-end-line="112" selection-end-column="117" />
           <folding />
         </state>
       </provider>
