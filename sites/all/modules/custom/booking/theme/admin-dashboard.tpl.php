@@ -15,6 +15,7 @@ global $user;
         <li class="manage"><a href="/admin/news">Tin tức</a></li>
         <li class="manage"><a href="/admin/services">Dịch vụ</a></li>
         <li class="manage"><a href="/admin/banners">Banner slideshow</a></li>
+        <li class="manage"><a href="/admin/push">Quảng cáo</a></li>
         <li class="manage"><a href="/admin/structure/taxonomy/category">Danh mục sản phẩm</a></li>
         <li class="manage"><a href="/admin/bookings">Booking đặt vé</a></li>
     </ul>
@@ -27,6 +28,7 @@ global $user;
         <li class="add"><a href="/node/add/banner">Thêm slideshow banner</a></li>
         <li class="add"><a href="/node/add/product">Thêm sản phẩm</a></li>
         <li class="add"><a href="/node/add/service">Thêm dịch vụ</a></li>
+        <li class="add"><a href="/node/add/push">Thêm Quảng cáo</a></li>
         <li class="add"><a href="/admin/structure/taxonomy/category/add"> Thêm danh mục sản phẩm</a></li>
     </ul>
 </div>
