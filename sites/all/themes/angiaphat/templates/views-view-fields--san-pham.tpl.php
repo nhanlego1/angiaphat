@@ -5,7 +5,6 @@
  * Date: 24/10/2016
  * Time: 15:10
  */
-dsm($fields);
 ?>
 <div class="grid_4">
   <div class="box">
