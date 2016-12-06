@@ -242,6 +242,7 @@ function _booking_rest_url($path)
 
 function getPrice($price, $default_return_value = '')
 {
+    $price = $price + 50000;
     if (!is_numeric($price)) {
         return $default_return_value;
     }
