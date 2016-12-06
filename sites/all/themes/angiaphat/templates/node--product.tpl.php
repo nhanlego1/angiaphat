@@ -17,12 +17,10 @@
     </div>
   </div>
   <div class="row content">
-    <div class="grid_12">
       <?php print render($content['body']); ?>
-    </div>
   </div>
   <div class="row">
-    <div class="grid_12">
+    <div class="grid_6">
       <?php print render($content['links']); ?>
       <?php print render($content['comments']); ?>
     </div>
