@@ -1437,3 +1437,9 @@ li.total-amount {
 #views_slideshow_cycle_teaser_section_banner-block, #views-slideshow-cycle-main-frame-row, #views_slideshow_cycle_main_banner-block{
     width: 570px!important;
 }
+.field-name-field-price{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font: 600 20px/30px 'Roboto Condensed', sans-serif;
+    color:#febf2b;
+}
