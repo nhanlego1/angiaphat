@@ -80,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="557">
-              <caret line="1453" column="20" selection-start-line="1453" selection-start-column="20" selection-end-line="1453" selection-end-column="20" />
+              <caret line="1454" column="23" selection-start-line="1454" selection-start-column="23" selection-end-line="1454" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -757,12 +757,12 @@
       <workItem from="1480950579817" duration="50000" />
       <workItem from="1480951143425" duration="4509000" />
       <workItem from="1481009479516" duration="5854000" />
-      <workItem from="1481018158836" duration="881000" />
+      <workItem from="1481018158836" duration="922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161746000" />
+    <option name="totallyTimeSpent" value="161787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -1190,7 +1190,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
-          <caret line="1453" column="20" selection-start-line="1453" selection-start-column="20" selection-end-line="1453" selection-end-column="20" />
+          <caret line="1454" column="23" selection-start-line="1454" selection-start-column="23" selection-end-line="1454" selection-end-column="23" />
           <folding />
         </state>
       </provider>
