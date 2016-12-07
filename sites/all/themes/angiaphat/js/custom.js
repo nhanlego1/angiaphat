@@ -46,12 +46,14 @@
                     $(".loading-message-depart").show();
                     data_.ReturnDate = null;
                     cleartickettimeout = setTimeout(function () {
-                        $.post("/ajax/ticket/checking", {data: data_})
+                        $.post("/ajax/ticket/checking", {data: data_, method : 'oneway'})
                             .done(function (data) {
+                                $(".submit-ticket-result").show();
                                 $(".loading-message-depart").hide();
                                 $(".fromway-ticket").append(data);
                                 _initFormTicket();
                                 $("#btn-search-ticket").show();
+
                             })
                             .fail(function () {
                                 //alert( "error" );
@@ -71,12 +73,14 @@
                         data2_.ToPlaceName = newTolaceNam;
                         data2_.DepartDate = newFromdate;
                         $(".loading-message-return").show();
-                        $.post("/ajax/ticket/checking/return", {data: data2_})
+                        $.post("/ajax/ticket/checking/return", {data: data2_, method : 'twoway'})
                             .done(function (datato) {
+                                $(".submit-ticket-result").show();
                                 $(".loading-message-return").hide();
                                 $(".returnway-ticket").append(datato);
-                                _initFormTicket();
+                                _initFormTicket2();
                                 $("#btn-search-ticket").show();
+
                             })
                             .fail(function () {
                                 //alert( "error" );
@@ -89,20 +93,24 @@
                     //if($("#booking_type_1_way").checked()){
                     $(".loading-message-depart").show();
                     cleartickettimeout = setTimeout(function () {
-                        $.post("/ajax/ticket/checking", {data: data_})
+                        $.post("/ajax/ticket/checking", {data: data_, method : 'oneway'})
                             .done(function (data) {
+                                $(".submit-ticket-result").show();
                                 $(".loading-message-depart").hide();
                                 $(".fromway-ticket").append(data);
                                 _initFormTicket();
                                 $("#btn-search-ticket").show();
+
                             })
                             .fail(function () {
                                 //alert( "error" );
                             });
                     }, 200);
                 }
+                //return false;
 
             }
+            //click subnit
             $(".page-ticket-checking #bookingForm").submit(function () {
                 var data_ = getFormData($(this));
                 var data2_ = getFormData($(this));
