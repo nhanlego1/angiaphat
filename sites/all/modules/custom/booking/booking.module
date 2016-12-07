@@ -410,7 +410,10 @@ function booking_ticket_form_submit($form, &$form_state)
         $info .='<p>Giá lượt về: '.number_format($twoway['TotalPrice'] + variable_get('price_more',50000)).'</p>';
         $params['body'] = $info;
     }
-    $info .='<p>Lời nhắn: '.$data['note'].'</p>';
+    if(isset($data['note']) && !empty($data['note'])){
+        $info .='<p>Lời nhắn: '.$data['note'].'</p>';
+    }
+
     // Add an associative array about this desired attachment.
     drupal_mail('booking', 'booking', $to, language_default(), $params, 'no-reply@angiaphat247.vn', TRUE);
     drupal_goto('ticket/checking');
