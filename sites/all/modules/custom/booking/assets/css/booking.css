@@ -1455,3 +1455,37 @@ li.total-amount {
     margin-bottom: 20px;
     margin-top: 30px;
 }
+
+.booking-submit{
+    background: #fbb716;
+    float: right;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.scrollDown {
+    background: rgba(33, 160, 36, 1);
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    right: 40%;
+    width: 50%;
+    color: #fff;
+}
+.scrollDown .moreScroll {
+    display: block;
+    padding-left: 20px;
+    padding-right: 15px;
+    float: left;
+    font-size: 18px;
+}
+.submit-ticket-result{
+    display: none;
+}

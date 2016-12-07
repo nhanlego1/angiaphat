@@ -5,11 +5,12 @@
  * Date: 01/11/2016
  * Time: 10:39
  */
+
 ?>
 
 <?php if (isset($ticket_results) && !empty($ticket_results)): ?>
 
-
+<form action="" method="post" id="booking_ticket_<?php print $ticket_results['type'] ?>" class="booking-ticket-<?php print $ticket_results['type'] ?>" name="booking_ticket_<?php print $ticket_results['type'] ?>">
     <div class="ticket-result">
         <div class="row">
             <?php if ($ticket_results['first_leg']): ?>
@@ -56,7 +57,13 @@
                                     <span><?php print BookingHelper::getPrice(@agp_getValue($ticket, 'Price'), 'N\A') ?></span>
                                 </div>
                                 <div class="detail">
-                                    <a href="#"><span>Chi tiết +</span></a>
+                                    <a href="#">
+                                        <span>Chi tiết </span>
+
+                                    </a>
+                                    <span class="choose-ticket">
+                                            <input type="radio" class="ticket-selection" value='<?php print drupal_json_encode($ticket) ?>' name="ticket[]" />
+                                        </span>
                                 </div>
 
                                 <ul>
@@ -129,6 +136,7 @@
         </div>
     </div>
     <div style="clear: both"></div>
+</form>
 <?php endif ?>
 
 

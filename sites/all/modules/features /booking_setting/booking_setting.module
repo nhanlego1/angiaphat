@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the booking_setting feature.
+ */
+
+include_once 'booking_setting.features.inc';

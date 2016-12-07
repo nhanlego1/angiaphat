@@ -66,6 +66,13 @@ class BookingHelper {
     return $out;
   }
 
+    public static function getDate($datetime1, $datetime2=null) {
+        $out = '';
+        $out .= date("d-m-Y", strtotime($datetime1));
+
+        return $out;
+    }
+
   public static function array_chop(&$arr, $num) {
     $ret = array_slice($arr, 0, $num);
     $arr = array_slice($arr, $num);
