@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="618d76f1-e636-47ae-a128-7792b4ebb2d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/angiaphat/js/custom.js" afterPath="$PROJECT_DIR$/sites/all/themes/angiaphat/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css" afterPath="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css" />
     </list>
     <ignored path="angiaphat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
@@ -120,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="booking.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="booking.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="1489" column="3" selection-start-line="1489" selection-start-column="3" selection-end-line="1489" selection-end-column="18" />
+            <state relative-caret-position="407">
+              <caret line="1448" column="32" selection-start-line="1448" selection-start-column="32" selection-end-line="1448" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -191,11 +189,11 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/admin-dashboard.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/includes/booking.helper.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-checking-result.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/theme/ticket-results-js.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/angiaphat/js/custom.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css" />
       </list>
     </option>
   </component>
@@ -642,12 +640,12 @@
       <workItem from="1480950579817" duration="50000" />
       <workItem from="1480951143425" duration="4509000" />
       <workItem from="1481009479516" duration="5854000" />
-      <workItem from="1481018158836" duration="16771000" />
+      <workItem from="1481018158836" duration="17222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177636000" />
+    <option name="totallyTimeSpent" value="178087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -1035,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="1489" column="3" selection-start-line="1489" selection-start-column="3" selection-end-line="1489" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/booking.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-763">
@@ -1079,6 +1069,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="354" column="23" selection-start-line="354" selection-start-column="23" selection-end-line="354" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/booking/assets/css/booking.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="1448" column="32" selection-start-line="1448" selection-start-column="32" selection-end-line="1448" selection-end-column="32" />
           <folding />
         </state>
       </provider>

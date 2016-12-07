@@ -1191,6 +1191,9 @@ li.total-amount {
     .grid_4 {
         width: 100%!important;
     }
+    .heading h4{
+        padding-left: 20px;
+    }
 }
 
 @media screen and (max-width: 756px) {
@@ -1430,6 +1433,20 @@ li.total-amount {
     .toplace {
         width: 100%;
         margin-left: 18px!important;
+    }
+
+    .scrollDown {
+        background: rgba(33, 160, 36, 1);
+        padding: 10px;
+        position: fixed;
+        bottom: 0px;
+        z-index: 9999;
+        left: 0;
+        color: #fff;
+        width: 100%;
+    }
+    .moreScroll{
+        display: none!important;
     }
 
 }
