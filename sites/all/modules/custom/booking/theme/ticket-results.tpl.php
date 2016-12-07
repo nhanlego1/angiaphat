@@ -129,8 +129,6 @@
                         </ul>
                     </div>
                 </div>
-            <?php else: ?>
-                <p> Không tìm thấy kết quả. </p>
             <?php endif; ?>
 
         </div>
