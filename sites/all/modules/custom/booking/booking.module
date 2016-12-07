@@ -404,10 +404,10 @@ function booking_ticket_form_submit($form, &$form_state)
     $info .='<p>Điện thoại: '.$data['phone'].'</p>';
     $info .='<p>Loại chuyến bay: '.$type.'</p>';
     $info .='<p>'.$oneway_info.'</p>';
-    $info .='<p>Giá lượt đi: '.($oneway['TotalPrice'] + variable_get('price_more',50000)).'</p>';
+    $info .='<p>Giá lượt đi: '.number_format($oneway['TotalPrice'] + variable_get('price_more',50000)).'</p>';
     if($type=='khứ hồi'){
         $info .='<p>'.$twoway_info.'</p>';
-        $info .='<p>Giá lượt về: '.($twoway['TotalPrice'] + variable_get('price_more',50000)).'</p>';
+        $info .='<p>Giá lượt về: '.number_format($twoway['TotalPrice'] + variable_get('price_more',50000)).'</p>';
         $params['body'] = $info;
     }
     $info .='<p>Lời nhắn: '.$data['note'].'</p>';
@@ -436,7 +436,6 @@ function booking_mail($key, &$message, $params) {
             };
             $message['subject'] = t($params['subject']);
             $message['body'][] = $params['body'];
-            $message['params']['attachments'][] = $params['attachment'];
             break;
     }
 }
