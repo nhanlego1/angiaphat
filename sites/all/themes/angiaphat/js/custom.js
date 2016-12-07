@@ -54,11 +54,30 @@
                                 _initFormTicket();
                                 $("#btn-search-ticket").show();
 
+                                var cleartickettimeoutjs;
+                                clearTimeout(cleartickettimeoutjs);
+                                cleartickettimeoutjs = setTimeout(function(){
+                                    $.post("/ajax/ticket/checking/fly", {data: data_, method : 'oneway'})
+                                        .done(function (data) {
+
+                                            $(".fromway-ticket ul.tbl-ticket-result").append(data);
+                                            var timeClear;
+                                            clearTimeout(timeClear);
+                                            timeClear=setTimeout(function(){
+                                                _sortLiFrom();
+                                            },100);
+
+                                        })
+                                        .fail(function () {
+                                            //alert( "error" );
+                                        });
+                                },100);
+
                             })
                             .fail(function () {
                                 //alert( "error" );
                             });
-                    }, 200);
+                    }, 10);
 
                     //return
                     var cleartickettimeoutTo;
@@ -81,11 +100,30 @@
                                 _initFormTicket2();
                                 $("#btn-search-ticket").show();
 
+                                var cleartickettimeoutjs;
+                                clearTimeout(cleartickettimeoutjs);
+                                cleartickettimeoutjs = setTimeout(function(){
+                                    $.post("/ajax/ticket/checking/fly", {data: data2_, method : 'oneway'})
+                                        .done(function (data) {
+
+                                            $(".returnway-ticket ul.tbl-ticket-result").append(data);
+                                            var timeClear;
+                                            clearTimeout(timeClear);
+                                            timeClear=setTimeout(function(){
+                                                _sortLiReturn();
+                                            },100);
+
+                                        })
+                                        .fail(function () {
+                                            //alert( "error" );
+                                        });
+                                },200);
+
                             })
                             .fail(function () {
                                 //alert( "error" );
                             });
-                    }, 1000);
+                    }, 20);
 
 
                 } else {
@@ -101,11 +139,30 @@
                                 _initFormTicket();
                                 $("#btn-search-ticket").show();
 
+                                var cleartickettimeoutjs;
+                                clearTimeout(cleartickettimeoutjs);
+                                cleartickettimeoutjs = setTimeout(function(){
+                                    $.post("/ajax/ticket/checking/fly", {data: data_, method : 'oneway'})
+                                        .done(function (data) {
+
+                                            $(".fromway-ticket ul.tbl-ticket-result").append(data);
+                                            var timeClear;
+                                            clearTimeout(timeClear);
+                                            timeClear=setTimeout(function(){
+                                                _sortLiFrom();
+                                            },100);
+
+                                        })
+                                        .fail(function () {
+                                            //alert( "error" );
+                                        });
+                                },100);
+
                             })
                             .fail(function () {
                                 //alert( "error" );
                             });
-                    }, 200);
+                    }, 10);
                 }
                 //return false;
 
@@ -135,12 +192,30 @@
                                 $(".fromway-ticket").append(data);
                                 _initFormTicket();
                                 $("#btn-search-ticket").show();
+                                var cleartickettimeoutjs;
+                                clearTimeout(cleartickettimeoutjs);
+                                cleartickettimeoutjs = setTimeout(function(){
+                                    $.post("/ajax/ticket/checking/fly", {data: data_, method : 'oneway'})
+                                        .done(function (data) {
+
+                                            $(".fromway-ticket ul.tbl-ticket-result").append(data);
+                                            var timeClear;
+                                            clearTimeout(timeClear);
+                                            timeClear=setTimeout(function(){
+                                                _sortLiFrom();
+                                            },100);
+
+                                        })
+                                        .fail(function () {
+                                            //alert( "error" );
+                                        });
+                                },200);
 
                             })
                             .fail(function () {
                                 //alert( "error" );
                             });
-                    }, 200);
+                    }, 20);
 
                     //return
                     var cleartickettimeoutTo;
@@ -163,11 +238,30 @@
                                 _initFormTicket2();
                                 $("#btn-search-ticket").show();
 
+                                var cleartickettimeoutjs;
+                                clearTimeout(cleartickettimeoutjs);
+                                cleartickettimeoutjs = setTimeout(function(){
+                                    $.post("/ajax/ticket/checking/fly", {data: data2_, method : 'oneway'})
+                                        .done(function (data) {
+
+                                            $(".returnway-ticket ul.tbl-ticket-result").append(data);
+                                            var timeClear;
+                                            clearTimeout(timeClear);
+                                            timeClear=setTimeout(function(){
+                                                _sortLiReturn();
+                                            },100);
+
+                                        })
+                                        .fail(function () {
+                                            //alert( "error" );
+                                        });
+                                },200);
+
                             })
                             .fail(function () {
                                 //alert( "error" );
                             });
-                    }, 1000);
+                    }, 20);
 
 
                 } else {
@@ -183,11 +277,29 @@
                                 _initFormTicket();
                                 $("#btn-search-ticket").show();
 
+                                var cleartickettimeoutjs;
+                                clearTimeout(cleartickettimeoutjs);
+                                cleartickettimeoutjs = setTimeout(function(){
+                                    $.post("/ajax/ticket/checking/fly", {data: data_, method : 'oneway'})
+                                        .done(function (data) {
+
+                                            $(".fromway-ticket ul.tbl-ticket-result").append(data);
+                                            var timeClear;
+                                            clearTimeout(timeClear);
+                                            timeClear=setTimeout(function(){
+                                                _sortLiFrom();
+                                            },100);
+                                        })
+                                        .fail(function () {
+                                            //alert( "error" );
+                                        });
+                                },100);
+
                             })
                             .fail(function () {
                                 //alert( "error" );
                             });
-                    }, 200);
+                    }, 10);
                 }
 
                 return false;
@@ -224,6 +336,36 @@
         });
 
     }
+    function _initFormTicketJS() {
+        $(".depart-info li.jetstar-wrapper .detail a").each(function () {
+            $(this).live('click',function (event) {
+                event.preventDefault();
+                $(this).parent().next().toggle();
+            });
+        });
+
+        $(".booking-ticket-oneway .ticket-selection").each(function(){
+            $(this).change(function(){
+                $(".submit-ticket-result .oneway-ticket").val($(this).val());
+            });
+        });
+
+    }
+    function _initFormTicketJS2() {
+        $(".return-info li.jetstar-wrapper .detail a").each(function () {
+            $(this).live('click',function (event) {
+                event.preventDefault();
+                $(this).parent().next().toggle();
+            });
+        });
+
+        $(".booking-ticket-oneway .ticket-selection").each(function(){
+            $(this).change(function(){
+                $(".submit-ticket-result .oneway-ticket").val($(this).val());
+            });
+        });
+
+    }
 
     function _initFormTicket2() {
         $(".return-info .detail a").each(function () {
@@ -239,6 +381,24 @@
             });
         });
 
+    }
+
+
+    function _sortLiFrom(){
+        $(".fromway-ticket ul.tbl-ticket-result li.detail-wrapper").sort(function(a, b) {
+            var contentA = parseInt($(a).attr('data-sort'));
+            var contentB = parseInt($(b).attr('data-sort'));
+            return (contentA < contentB) ? -1 : (contentA > contentB) ? 1 : 0;
+        }).appendTo($(".fromway-ticket ul.tbl-ticket-result"));
+        _initFormTicketJS();
+    }
+    function _sortLiReturn(){
+        $(".returnway-ticket ul.tbl-ticket-result li.detail-wrapper").sort(function(a, b) {
+            var contentA = parseInt($(a).attr('data-sort'));
+            var contentB = parseInt($(b).attr('data-sort'));
+            return (contentA < contentB) ? -1 : (contentA > contentB) ? 1 : 0;
+        }).appendTo($(".returnway-ticket ul.tbl-ticket-result"));
+        _initFormTicketJS2();
     }
 
 })(jQuery);

@@ -37,9 +37,9 @@
                                 </ul>
                             </div>
                             <?php $from = _sort_price($ticket_results['first_leg']);
-
+                            $count = 0;
                             foreach ($from as $ticket): ?>
-                            <li class="detail-wrapper">
+                            <li data-sort="<?php print $ticket->Price ?>" class="detail-wrapper">
 
                                 <div
                                     class="logo-airline <?php print BookingHelper::getClassByAirlineCode(agp_getValue($ticket, 'AirlineCode')) ?>">
@@ -123,7 +123,7 @@
                                     <div class="clearfix"></div>
                                 </ul>
                             </li>
-
+                            <?php $count ++; ?>
                             <?php endforeach; ?>
 
                         </ul>

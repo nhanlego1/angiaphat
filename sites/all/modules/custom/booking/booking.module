@@ -31,6 +31,11 @@ function booking_menu()
         'page callback' => 'booking_ticket_checking_ajax',
         'type' => MENU_CALLBACK
     );
+    $items['ajax/ticket/checking/fly'] = array(
+        'access arguments' => array('access content'),
+        'page callback' => 'booking_ticket_checking_ajax_js',
+        'type' => MENU_CALLBACK
+    );
     $items['ajax/ticket/checking/return'] = array(
         'access arguments' => array('access content'),
         'page callback' => 'booking_ticket_checking_ajax',
@@ -69,6 +74,11 @@ function booking_theme()
         'render element' => 'element',
         'path' => drupal_get_path('module', 'booking') . '/theme',
         'template' => 'ticket-results',
+    );
+    $items['ticket_results_js'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'booking') . '/theme',
+        'template' => 'ticket-results-js',
     );
     $items['ticket_checking_result'] = array(
         'render element' => 'element',
@@ -115,6 +125,33 @@ function booking_ticket_checking_ajax()
     print render(theme('ticket_results', $data));
     drupal_exit();
 
+}
+
+function booking_ticket_checking_ajax_js(){
+    $data = _build_data_booking();
+    $data['ticket_results'] = NULL;
+    $ticket_results = array();
+    if ($data['booking_data']['filter']['ticketType'] == 0) {
+        // $sources = array('VietJetAir', 'JetStar', 'VietnamAirlines');
+        //$sources = array('VietJetAir', 'VietnamAirlines');
+          $sources = array('JetStar');
+
+    }
+
+    //$sources = array('VietJetAir', 'JetStar');
+
+    foreach ($sources as $source) {
+        $data_filter = BookingHelper::build_data_filter($data['booking_data']['filter'], $source);
+        $ticket_results = array_merge($ticket_results, _search_ticket($data_filter));
+    }
+
+    if (!empty($ticket_results)) {
+        $data['ticket_results']['first_leg'] = $ticket_results;
+    }
+    $data['ticket_results']['type'] = $data['booking_data']['type'];
+
+    print render(theme('ticket_results_js', $data));
+    drupal_exit();
 }
 
 function booking_ticket_checking()
