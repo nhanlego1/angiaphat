@@ -59,8 +59,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="562" column="0" selection-start-line="562" selection-start-column="0" selection-end-line="562" selection-end-column="19" />
+            <state relative-caret-position="216">
+              <caret line="541" column="20" selection-start-line="541" selection-start-column="20" selection-end-line="541" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -497,12 +497,12 @@
       <workItem from="1481018158836" duration="18136000" />
       <workItem from="1481126861178" duration="2443000" />
       <workItem from="1481367581061" duration="510000" />
-      <workItem from="1484627012524" duration="432000" />
+      <workItem from="1484627012524" duration="483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182386000" />
+    <option name="totallyTimeSpent" value="182437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -925,8 +925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/angiaphat/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="562" column="0" selection-start-line="562" selection-start-column="0" selection-end-line="562" selection-end-column="19" />
+        <state relative-caret-position="216">
+          <caret line="541" column="20" selection-start-line="541" selection-start-column="20" selection-end-line="541" selection-end-column="20" />
           <folding />
         </state>
       </provider>
