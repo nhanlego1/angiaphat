@@ -53,7 +53,7 @@ img {
 
 .agp-views-product .box img {
     height: 220px;
-    width: 100%;
+    width: auto;
 }
 
 /****Heads****/
@@ -538,6 +538,7 @@ strong.col4 .fa {
 
 .box {
         border: 1px solid #ededed;
+    text-align: center;
 }
 
 .box_top {
@@ -559,7 +560,7 @@ strong.col4 .fa {
 }
 
 .box_bot .text1 .col1 {
-    float: right;
+    /*float: right;*/
 }
 
 .box p {
