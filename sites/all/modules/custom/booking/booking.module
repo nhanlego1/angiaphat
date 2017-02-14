@@ -433,7 +433,7 @@ function booking_ticket_form_submit($form, &$form_state)
     node_save($node);
     drupal_set_message(t('Bạn đã đặt vé thành công. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.'));
     $params = array();
-    $to = variable_get('site_mail','mydien@angiaphat247.vn');
+    $to = variable_get('site_mail','nguyenmydien@angiaphat247.vn');
     $params['subject'] = 'Anh/Chị '.$data['name'].' vừa đặt vé máy bay trên hệ thống.';
     $info = '';
     $info .='<p>Họ và tên: '.$data['name'].'</p>';
