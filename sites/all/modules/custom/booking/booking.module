@@ -445,11 +445,11 @@ function booking_ticket_form_submit($form, &$form_state)
     if($type=='khứ hồi'){
         $info .='<p>'.$twoway_info.'</p>';
         $info .='<p>Giá lượt về: '.number_format($twoway['TotalPrice'] + variable_get('price_more',50000)).'</p>';
-        $params['body'] = $info;
     }
     if(isset($data['note']) && !empty($data['note'])){
         $info .='<p>Lời nhắn: '.$data['note'].'</p>';
     }
+    $params['body'] = $info;
 
     // Add an associative array about this desired attachment.
     drupal_mail('booking', 'booking', $to, language_default(), $params, 'no-reply@angiaphat247.vn', TRUE);
