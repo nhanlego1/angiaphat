@@ -71,7 +71,7 @@
                                         .fail(function () {
                                             //alert( "error" );
                                         });
-                                },100);
+                                },2);
 
                             })
                             .fail(function () {
@@ -117,7 +117,7 @@
                                         .fail(function () {
                                             //alert( "error" );
                                         });
-                                },200);
+                                },5);
 
                             })
                             .fail(function () {
